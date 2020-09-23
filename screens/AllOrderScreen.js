@@ -36,9 +36,9 @@ const AllOrderScreen = props => {
                     <Button  onPress={() => setGlobalLanguage('en')} title="ENG" />
                     <Button  onPress={() => setGlobalLanguage('th')} title="TH" />
                 </View>
-                <Button style={styles.orderButton}  title={i18n.t('all_order_screen.Donate')} onPress={() => { Linking.openURL('https://www.patreon.com/bePatron?u=12681304'); }} />
-                <Button style={styles.orderButton}  title={i18n.t('all_order_screen.Report bug / Suggestion')} onPress={() => { Linking.openURL('https://discord.gg/aTSNesd'); }} />
-                <Button style={styles.orderButton}  title={i18n.t('all_order_screen.Activity page/Change log')} onPress={() => { Linking.openURL('https://www.patreon.com/infinity_custom_app?fan_landing=true'); }} />
+                <Button style={styles.orderButton}  title={i18n.t('all_order_screen.Donate')} onPress={() => { window.open('https://www.patreon.com/bePatron?u=12681304', '_blank');}} />
+                <Button style={styles.orderButton}  title={i18n.t('all_order_screen.Report bug / Suggestion')} onPress={() => {window.open('https://discord.gg/aTSNesd', '_blank'); }} />
+                <Button style={styles.orderButton}  title={i18n.t('all_order_screen.Activity page/Change log')} onPress={() => { window.open('https://www.patreon.com/infinity_custom_app?fan_landing=true', '_blank'); }} />
             </View>
         </View>
     );

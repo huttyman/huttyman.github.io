@@ -5,9 +5,13 @@ import i18n from 'i18n-js';
 import { TUTORIAL } from '../../datas/data-tutorial';
 
 const TopicContainer = props => {
+    let topicText = props.data.desc;
+    if(i18n.locale == "th" && props.data.descTH){
+        topicText = props.data.descTH;
+    }
     return (
         <View style={styles.topicContainer}>
-            <Text style={styles.tutorText}>{props.data.desc}</Text>
+            <Text style={styles.tutorText}>{topicText}</Text>
             <View style={{width:'100%',alignItems:"center"}}>
             <Image source={require('../../assets/tutorial/'+props.data.image)}   style={{width: (props.window.width-100) ,height: (props.data.imageSize.height/props.data.imageSize.width)*(props.window.width-100)}} />
             </View>

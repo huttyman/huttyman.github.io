@@ -22,7 +22,7 @@ const AllCartStackNavigator = createStackNavigator({
     Army: {
         screen: ArmyScreen,
         navigationOptions: {
-            headerTitle: "Army selection [CODE ONE] v2.8f",
+            headerTitle: "Army selection [CODE ONE] v2.8e",
             headerStyle: {
                 backgroundColor: Colors.mainGrey,
                 height: 35,
