@@ -7,6 +7,7 @@ export const TH_lang = {
         "Report bug / Suggestion": "Report bug / แนะนำเพิ่มเติม",
         "Activity page/Change log": "Activity page/Change log",
         "Explain Unit Stat": "อธิบาย Unit profile/Weapon/Ammo",
+        "Action tutorial" : "อธบาย Action เบื้องต้น",
         teach_order_screen: {
             " = Choose both action in any order": " = ทำได้2อย่าง เลือกอันไหนก่อนก็ได้",
             "Move/Idle/Discovery": "เดิน/นิ่ง/\nค้นหา",

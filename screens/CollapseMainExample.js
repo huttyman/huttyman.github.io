@@ -8,6 +8,9 @@ import {
   View,
   Image,
   TouchableOpacity,
+  BackHandler,
+  ToastAndroid,
+  Alert,
 } from 'react-native';
 //import basic react native components
 import * as Animatable from 'react-native-animatable';
@@ -21,6 +24,7 @@ import Color from '../templates/Colors'
 import ScoreTitle from '../components/ScoreTitle';
 import ClickModal from '../components/ClickModal';
 import { ScrollView } from 'react-native-gesture-handler';
+import { IMAGELOGO } from '../datas/image-log';
 //Dummy content to show
 //You can also use dynamic data by calling webservice
 
@@ -43,14 +47,14 @@ export default class CollapseMainExample extends Component {
 
   };
 
-  setToggleVisible = (title,text) =>{
-    this.setState({modalVisible:!this.state.modalVisible});
+  setToggleVisible = (title, text) => {
+    this.setState({ modalVisible: !this.state.modalVisible });
   }
-  setModalState = (title,text) => {
+  setModalState = (title, text) => {
     this.setState({
-      modalVisible:!this.state.modalVisible,
-      modalTitle:title,
-      modalText:text
+      modalVisible: !this.state.modalVisible,
+      modalTitle: title,
+      modalText: text
     })
   };
 
@@ -71,22 +75,37 @@ export default class CollapseMainExample extends Component {
     });
   };
 
+
+  componentDidMount() {
+    BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
+  }
+
+  componentWillUnmount() {
+    BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton);
+  }
+
+  handleBackButton() {
+    Alert.alert("test", "alert");
+    ToastAndroid.show('Back button is pressed', ToastAndroid.SHORT);
+    return true;
+  }
+
+
   renderHeader = (section, _, isActive) => {
     //Accordion Header view
-    console.log(section);
     return (
       <Animatable.View
         duration={400}
         style={[styles.header, isActive ? styles.active : styles.inactive, { flexDirection: "row", backgroundColor: Color.mainBlack }]}
         transition="backgroundColor">
         <View style={{ zIndex: 1, backgroundColor: Color.mainBlack, borderRadius: 45, maxWidth: 80, minWidth: 80, flex: 1, borderWidth: 4, borderColor: Color.mainBlack, overflow: "hidden" }}>
-          <Image source={require('../assets/logos/' + section.titleId + '.svg')} style={{ height: 70, width: 70 }} />
+          <Image source={IMAGELOGO[section.titleId].uri} style={{ height: 70, width: 70 }} />
         </View>
         <View style={{ zIndex: 0, margin: 2, backgroundColor: Color.mainGrey, flex: 6, alignItems: "flex-start", marginLeft: -40, paddingLeft: 50, paddingVertical: 3, justifyContent: "center" }}>
           <Text style={styles.headerText}>{section.title}</Text>
         </View>
         <View style={{ margin: 2, backgroundColor: Color.mainGrey, borderTopRightRadius: 13, borderBottomRightRadius: 13, flex: 1, alignItems: "center", justifyContent: "center" }}>
-          <Text style={[styles.headerText, { textTransform: "uppercase",textAlign: "center",fontSize:14 }]}>{section.size}{section.isHackable == "TRUE" ? ', HA' : ''}{section.isPeriperial == "TRUE" ? ', Per' : ''}</Text>
+          <Text style={[styles.headerText, { textTransform: "uppercase", textAlign: "center", fontSize: 14 }]}>{section.size}{section.isHackable == "TRUE" ? ', HA' : ''}{section.isPeriperial == "TRUE" ? ', Per' : ''}</Text>
         </View>
 
       </Animatable.View>
@@ -101,8 +120,8 @@ export default class CollapseMainExample extends Component {
         duration={400}
         style={[styles.content, isActive ? styles.active : styles.inactive]}
         transition="backgroundColor">
-          <AllCart data={section} toggleFalse={this.setToggleFalse} setModalState={this.setModalState} navigation={this.props.navigation} />
-        
+        <AllCart data={section} toggleFalse={this.setToggleFalse} setModalState={this.setModalState} navigation={this.props.navigation} />
+
       </Animatable.View>
     );
   };
@@ -123,7 +142,7 @@ export default class CollapseMainExample extends Component {
         />
 
         {/* score count header*/}
-        <View style={{ backgroundColor: Color.mainGrey, paddingHorizontal: 15,height:25 }}>
+        <View style={{ backgroundColor: Color.mainGrey, paddingHorizontal: 15, height: 25 }}>
           <ScoreTitle />
         </View>
         <ScrollView nestedScrollEnabled={true} contentContainerStyle={{ paddingTop: 5 }}>

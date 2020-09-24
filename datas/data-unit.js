@@ -1072,8 +1072,6 @@ export const UNITLIST = [
         "id": "1",
         "titleId": "fusi1",
         "gunList": ['combi', 'pist', 'ccwp'],
-        "skillList": ['med'],
-        "equipmentList": ['med'],
         "swc": "0",
         "points": "1"
     },
@@ -1081,7 +1079,8 @@ export const UNITLIST = [
         "id": "2",
         "titleId": "fusi2",
         "gunList": ['combi', 'pist', 'ccwp'],
-        "skillList": ['lt'],
+        "skillList": ['med'],
+        "equipmentList": ['med'],
         "swc": "0",
         "points": "1"
     },
@@ -1089,8 +1088,7 @@ export const UNITLIST = [
         "id": "3",
         "titleId": "fusi3",
         "gunList": ['combi', 'pist', 'ccwp'],
-        "skillList": ['hack'],
-        "equipmentList": ['hack'],
+        "skillList": ['lt'],
         "swc": "0",
         "points": "1"
     },
@@ -1098,6 +1096,8 @@ export const UNITLIST = [
         "id": "4",
         "titleId": "fusi4",
         "gunList": ['combi', 'pist', 'ccwp'],
+        "skillList": ['hack'],
+        "equipmentList": ['hack'],
         "swc": "0.5",
         "points": "1"
     },

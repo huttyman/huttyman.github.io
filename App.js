@@ -1,11 +1,12 @@
 /*Example of Collapsible - Accordion - Expandable View in React Native*/
+import 'react-native-gesture-handler';
 import React from 'react';
 //import react in our project
-
 import AllCartNavigator from './navigation/AllCartNavigator';
 import i18n from 'i18n-js';
 import {TH_lang} from './assets/language/th';
 import {EN_lang} from './assets/language/en';
+
 
 i18n.translations = {
   en: EN_lang ,
@@ -25,6 +26,7 @@ export const ScoreContext = React.createContext();
 
 
 export default function App() {
+
   return (
       <AllCartNavigator />
   );

@@ -7,7 +7,7 @@ export const EN_lang =  {
         "Report bug / Suggestion": "Report bug / Suggestion",
         "Activity page/Change log": "Activity page/Change log",
         "Explain Unit Stat": "Explain Unit profile/Weapon/Ammo",
-        "How to roll dice?": "How to roll dice?",
+        "Action tutorial" : "Action tutorial",
         teach_order_screen: {
             " = Choose both action in any order": " = Choose both action in any order",
             "Move/Idle/Discovery": "Move/Idle/\nDiscovery",

@@ -73,7 +73,7 @@ const TeachOrderScreen = props => {
                     </TouchableOpacity>
                 </View>
                 <View>
-                    <SummaryOrderScreen />
+                    <SummaryOrderScreen navigation={props.navigation}/>
                 </View>
             </View>
         </ScrollView>

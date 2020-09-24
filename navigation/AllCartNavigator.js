@@ -4,6 +4,8 @@ import { createAppContainer } from 'react-navigation';
 import CollapseExample from '../screens/CollapseExample';
 import CollapseMainExample from '../screens/CollapseMainExample';
 import { createBottomTabNavigator,createMaterialTopTabNavigator, } from 'react-navigation-tabs';
+
+
 import { Ionicons } from '@expo/vector-icons';
 import Colors from '../templates/Colors';
 import ArmyScreen from '../screens/ArmyScreen';
@@ -22,7 +24,7 @@ const AllCartStackNavigator = createStackNavigator({
     Army: {
         screen: ArmyScreen,
         navigationOptions: {
-            headerTitle: "Army selection [CODE ONE] v2.8e",
+            headerTitle: "Army selection [CODE ONE] v2.8a",
             headerStyle: {
                 backgroundColor: Colors.mainGrey,
                 height: 35,
@@ -60,19 +62,35 @@ const OrderSummaryStackNavigator = createStackNavigator({
         navigationOptions: {
             headerTitle: "Help",
             headerStyle: {
-                height: 35,
+                height: 40,
             },
         },
     },
-    AllTutorial: AllTutorialScreen,
-    ExplainStat: ExplainStat,
+    AllTutorial: {
+        screen: AllTutorialScreen,
+        navigationOptions: {
+            headerTitle: "All Tutorial",
+            headerStyle: {
+                height: 40,
+            },
+        },
+    },
+    ExplainStat: {
+        screen: ExplainStat,
+        navigationOptions: {
+            headerTitle: "Explain unit and weapon",
+            headerStyle: {
+                height: 40,
+            },
+        },
+    },
     Order: SummaryOrderScreen,
     MoveTutorial:{
         screen: MoveTutorialScreen,
         navigationOptions: {
             headerTitle: "Tutorial",
             headerStyle: {
-                height: 35,
+                height: 40,
             },
         },
     },
@@ -81,7 +99,7 @@ const OrderSummaryStackNavigator = createStackNavigator({
         navigationOptions: {
             headerTitle: "Teaching",
             headerStyle: {
-                height: 35,
+                height: 40,
             },
         },
     },
@@ -90,7 +108,7 @@ const OrderSummaryStackNavigator = createStackNavigator({
         navigationOptions: {
             headerTitle: "Turn order",
             headerStyle: {
-                height: 35,
+                height: 40,
             },
         },
     },
@@ -99,7 +117,7 @@ const OrderSummaryStackNavigator = createStackNavigator({
         navigationOptions: {
             headerTitle: "Turn order",
             headerStyle: {
-                height: 35,
+                height: 40,
             },
         },
     },
@@ -108,7 +126,7 @@ const OrderSummaryStackNavigator = createStackNavigator({
         navigationOptions: {
             headerTitle: "Action order",
             headerStyle: {
-                height: 35,
+                height: 40,
             },
         },
     },
@@ -117,7 +135,7 @@ const OrderSummaryStackNavigator = createStackNavigator({
         navigationOptions: {
             headerTitle: "Action order",
             headerStyle: {
-                height: 35,
+                height: 40,
             },
         },
     },

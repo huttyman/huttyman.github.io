@@ -8,13 +8,14 @@ const ListItem = props =>{
     
     console.log(props);
     return(
+        <View style={{padding:15,paddingLeft:20,borderBottomWidth:1,borderBottomColor:"#c7c7c7"}}>
+            
         <TouchableOpacity onPress={()=>{
             props.navigation.navigate({ routeName: 'MoveTutorial',params:{titleId:props.data.id} });
             }}>
-        <View>
-            <Text>{props.data.title}</Text>
+            <Text style={{fontWeight:"500",fontSize:16}}>{props.data.title}</Text>
+            </TouchableOpacity>
         </View>
-        </TouchableOpacity>
     );
 };
 
@@ -32,25 +33,8 @@ const AllTutorialScreen = props => {
 
 const styles = StyleSheet.create({
     container:{
-        padding:10,
         backgroundColor:"white",
     },
-    topicContainer:{
-        paddingVertical: 15,
-    },
-    tutorImage:{
-        height: 300, width: 500, overflow:"visible",
-
-    },
-    tutorText:{
-        padding: 5,
-        backgroundColor: Colors.mainWhite,
-        fontSize: 16,
-    },
-    titleText: {
-        fontSize: 16,
-        fontWeight: "500",
-    }
 
 });
 

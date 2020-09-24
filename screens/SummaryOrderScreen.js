@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text, ScrollView } from 'react-native';
+import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import Colors from '../templates/Colors';
 
 const SummaryOrderScreen = props => {
@@ -28,7 +28,13 @@ const SummaryOrderScreen = props => {
                         <Text style={styles.bodyText}>65</Text>
                     </View>
                     <View style={styles.bodyRow}>
-                        <Text style={styles.bodyText}>MOVE</Text>
+                        <Text style={styles.bodyText}>
+                            <TouchableOpacity onPress={() => {
+                                props.navigation.navigate({ routeName: 'MoveTutorial', params: { titleId: 'move' } });
+                            }}>
+                                <Text>MOVE</Text>
+                            </TouchableOpacity>
+                        </Text>
                         <Text style={styles.bodyText}>COMMON S.</Text>
                         <Text style={styles.bodyText}>34</Text>
                     </View>
@@ -165,7 +171,13 @@ const SummaryOrderScreen = props => {
                         <Text style={styles.bodyText}>74</Text>
                     </View>
                     <View style={styles.bodyRow}>
-                        <Text style={styles.bodyText}>JUMP</Text>
+                        <Text style={styles.bodyText}>
+                            <TouchableOpacity onPress={() => {
+                                props.navigation.navigate({ routeName: 'MoveTutorial', params: { titleId: 'jump' } });
+                            }}>
+                                <Text>JUMP</Text>
+                            </TouchableOpacity>
+                        </Text>
                         <Text style={styles.bodyText}>COMMON S.</Text>
                         <Text style={styles.bodyText}>37</Text>
                     </View>
