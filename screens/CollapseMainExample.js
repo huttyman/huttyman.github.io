@@ -77,11 +77,16 @@ export default class CollapseMainExample extends Component {
 
 
   componentDidMount() {
-    BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
+    this._unsubscribe = this.props.navigation.addListener('focus', () => {
+      // The screen is focused
+      // Call any action
+      this.setToggleFalse();
+
+    });
   }
 
   componentWillUnmount() {
-    BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton);
+    this._unsubscribe();
   }
 
   handleBackButton() {

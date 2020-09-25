@@ -125,6 +125,18 @@ export default class CollapseExampleTestTemplate extends Component {
     modalTitle: "",
   };
 
+  componentDidMount() {
+    this._unsubscribe = this.props.navigation.addListener('focus', () => {
+      // The screen is focused
+      // Call any action
+      this.setToggleFalse();
+
+    });
+  }
+  componentWillUnmount() {
+    this._unsubscribe();
+  }
+
   readFromClipboard = () => {
 
     importUnit(this.state.clibboardText);
@@ -225,6 +237,7 @@ export default class CollapseExampleTestTemplate extends Component {
     let skillText = <Text></Text>;
     let equipmentText = <Text></Text>;
     let ltTokenImage;
+    
 
     if (skillLength != 0) {
       skillText = <Text style={[styles.headerDetailText, { color: 'green' }]}>Skill: {combinedSkill.map((gunId, index) => <Text key={index}>{skillItem(gunId, index, skillLength, this.toggleModalVisibility)}</Text>)}</Text>;
@@ -302,6 +315,7 @@ export default class CollapseExampleTestTemplate extends Component {
 
   render() {
     const { multipleSelect, activeSections } = this.state;
+    console.log(this);
 
     // global.unitList = [{ unitId: '1', unitSetId: '4' }, { unitId: '2', unitSetId: '2' }];
     return (

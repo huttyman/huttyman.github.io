@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { NavigationContainer, TabActions } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator, } from '@react-navigation/bottom-tabs';
-
+import { createMaterialBottomTabNavigator, } from '@react-navigation/material-bottom-tabs';
+import { createMaterialTopTabNavigator, } from '@react-navigation/material-top-tabs';
 
 import CollapseExample from '../screens/CollapseExample';
 import CollapseMainExample from '../screens/CollapseMainExample';
@@ -23,7 +24,7 @@ import * as Linking from 'expo-linking';
 
 const prefix = Linking.makeUrl('/');
 const Stack = createStackNavigator();
-const Tab = createBottomTabNavigator();
+const Tab = createMaterialTopTabNavigator();
 
 const AllArmyTabNavigator = (props) => {
     return (
@@ -124,26 +125,54 @@ const AllTutorialTabNavigator = (props) => {
     );
 }
 
-export default function AllCartTabNavigator() {
 
+
+export default function AllCartTabNavigator() {
+    const [blank,SetBlank] = useState(false);
     const linking = {
         prefixes: [prefix],
     };
+
+
     return (
         <NavigationContainer linking={linking} fallback={<Text>Loading...</Text>}>
-            <Tab.Navigator>
-                <Tab.Screen name="Army1" component={AllArmyTabNavigator} />
+            <Tab.Navigator swipeEnabled="false" tabBarPosition="bottom">
+                <Tab.Screen name="Army1"
+                    component={AllArmyTabNavigator}
+                    options={{
+                        tabBarLabel: 'Army',
+                        tabBarIcon: ({ color, size }) => (
+                            <Ionicons name='ios-archive' size={24} color={color} />
+                        ),
+                    }}
+                />
                 <Tab.Screen name="Cart" component={AllSelectedTabNavigator}
                     listeners={({ navigation, route }) => ({
                         tabPress: e => {
                             // Prevent default action
-
-                            // Do something with the `navigation` object
-                            navigation.setParams({ name: 'test' });
+                            console.log(navigation);
+                            console.log(route);
+                            console.log('fff');
                         },
                     })}
+                    options={{
+                        tabBarLabel: 'Choosen List',
+                        tabBarIcon: ({ color, size }) => (
+                            <Ionicons name='ios-star' size={24} color={color} />
+                        ),
+                    }}
                 />
-                <Tab.Screen name="Tutor" component={AllTutorialTabNavigator} />
+                <Tab.Screen name="Tutor" component={AllTutorialTabNavigator}
+                    options={{
+                        tabBarLabel: 'Help',
+                        tabBarIcon: ({ color, size }) => (
+                            <Ionicons name='ios-book' size={24} color={color} />
+                        ),
+                    }}
+                    activeColor={Colors.mainBlack}
+                    inactiveColor={Colors.mainGrey}
+                    barStyle={{ backgroundColor: 'red' }}
+                />
             </Tab.Navigator>
         </NavigationContainer>
     );
