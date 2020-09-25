@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { createStackNavigator } from 'react-navigation-stack';
-import { createAppContainer } from 'react-navigation';
+import { NavigationContainer, TabActions } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { createBottomTabNavigator, } from '@react-navigation/bottom-tabs';
+
+
 import CollapseExample from '../screens/CollapseExample';
 import CollapseMainExample from '../screens/CollapseMainExample';
-import { createBottomTabNavigator,createMaterialTopTabNavigator, } from 'react-navigation-tabs';
-
-
 import { Ionicons } from '@expo/vector-icons';
 import Colors from '../templates/Colors';
 import ArmyScreen from '../screens/ArmyScreen';
@@ -19,178 +19,132 @@ import ActionOrderScreenTH from '../screens/ActionOrderScreenTH';
 import ExplainStat from '../screens/teaching/ExplainStat';
 import MoveTutorialScreen from '../screens/teaching/MoveTutorialScreen'
 import AllTutorialScreen from '../screens/teaching/AllTutorialScreen';
+import * as Linking from 'expo-linking';
 
-const AllCartStackNavigator = createStackNavigator({
-    Army: {
-        screen: ArmyScreen,
-        navigationOptions: {
-            headerTitle: "Army selection [CODE ONE] v2.8a",
-            headerStyle: {
-                backgroundColor: Colors.mainGrey,
-                height: 35,
-                borderColor: Colors.mainGrey,
-                borderWidth: 0,
-            },
-            headerTitleStyle: {
-                color: Colors.mainWhite,
-                fontSize:16,
-            },
-        },
-    },
-    AllCartScreen: {
-        screen: CollapseMainExample,
-        navigationOptions: {
-            headerTitle: "Unit selection",
-            headerStyle: {
-                backgroundColor: Colors.mainGrey,
-                height: 35,
-                borderColor: Colors.mainGrey,
-                borderWidth: 0,
-            },
-            headerTitleStyle: {
-                color: Colors.mainWhite,
-                fontSize:16,
-            },
-            headerTintColor: Colors.mainWhite,
-        },
-    }
-});
+const prefix = Linking.makeUrl('/');
+const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
 
-const OrderSummaryStackNavigator = createStackNavigator({
-    All:{
-        screen: AllOrderScreen,
-        navigationOptions: {
-            headerTitle: "Help",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-    AllTutorial: {
-        screen: AllTutorialScreen,
-        navigationOptions: {
-            headerTitle: "All Tutorial",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-    ExplainStat: {
-        screen: ExplainStat,
-        navigationOptions: {
-            headerTitle: "Explain unit and weapon",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-    Order: SummaryOrderScreen,
-    MoveTutorial:{
-        screen: MoveTutorialScreen,
-        navigationOptions: {
-            headerTitle: "Tutorial",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-    Teaching:{
-        screen: TeachOrderScreen,
-        navigationOptions: {
-            headerTitle: "Teaching",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-    TurnOrder:{
-        screen: TurnOrderScreen,
-        navigationOptions: {
-            headerTitle: "Turn order",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-    TurnOrderTH:{
-        screen: TurnOrderScreenTH,
-        navigationOptions: {
-            headerTitle: "Turn order",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-    ActionOrderTH:{
-        screen: ActionOrderScreenTH,
-        navigationOptions: {
-            headerTitle: "Action order",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-    ActionOrder:{
-        screen: ActionOrderScreen,
-        navigationOptions: {
-            headerTitle: "Action order",
-            headerStyle: {
-                height: 40,
-            },
-        },
-    },
-});
+const AllArmyTabNavigator = (props) => {
+    return (
 
-const AllCartTabNavigator = createBottomTabNavigator({
-    
-    Army: {
-        screen: AllCartStackNavigator,
-        navigationOptions: {
-            tabBarLabel: 'Army',
-            tabBarIcon: (tabInfo) => {
-                return <Ionicons name='ios-archive' size={24} color={tabInfo.tintColor} />
-            },
-            tabBarOnPress: ({defaultHandler,navigation}) => {
-                navigation.setParams({name:'test'});
-                defaultHandler();
-            },
-        },
+        <Stack.Navigator
+            initialRouteName="Army"
+            screenOptions={{ gestureEnabled: false }}
+        >
+            <Stack.Screen
+                name="Army"
+                component={ArmyScreen}
+                options={{ title: 'My app' }}
+                initialParams={{ armyId: 'pano' }}
+            />
+            <Stack.Screen
+                name="AllCartScreen"
+                component={CollapseMainExample}
+                options={{ title: 'My app' }}
+            />
+        </Stack.Navigator>
+    );
+}
 
-    },
-    Carts: {
-        screen: CollapseExample, navigationOptions: {
-            tabBarLabel: 'Choosen List',
-            tabBarIcon: (tabInfo) => {
-                return <Ionicons name='ios-star' size={24} color={tabInfo.tintColor} />
-            },
-            tabBarOnPress: ({defaultHandler,navigation}) => {
-                navigation.setParams({name:'test'});
-                defaultHandler();
-            },
+const AllSelectedTabNavigator = (props) => {
+    return (
 
+        <Stack.Navigator
+            initialRouteName="Cart"
+            screenOptions={{ gestureEnabled: false }}
+        >
+            <Stack.Screen
+                name="Cart"
+                component={CollapseExample}
+                options={{ title: 'cart' }}
+            />
+        </Stack.Navigator>
+    );
+}
 
-        },
-        
-    },
-    Order: {
-        screen: OrderSummaryStackNavigator, navigationOptions: {
-            tabBarLabel: 'All summary',
-            tabBarIcon: (tabInfo) => {
-                return <Ionicons name='ios-book' size={24} color={tabInfo.tintColor} />
-            },
+const AllTutorialTabNavigator = (props) => {
+    return (
 
-        }
-    },
-}, {
-    tabBarOptions: {
-        activeTintColor: '#ffffff',
-        activeBackgroundColor: Colors.mainBlack,
-        style: { backgroundColor: Colors.mainGrey },
-        
-    },
-    
+        <Stack.Navigator
+            initialRouteName="All"
+            screenOptions={{ gestureEnabled: false }}
+        >
+            <Stack.Screen
+                name="All"
+                component={AllOrderScreen}
+                options={{ title: 'All' }}
+            />
+            <Stack.Screen
+                name="AllTutorial"
+                component={AllTutorialScreen}
+                options={{ title: 'AllTutorial' }}
+            />
+            <Stack.Screen
+                name="ExplainStat"
+                component={ExplainStat}
+                options={{ title: 'ExplainStat' }}
+            />
+            <Stack.Screen
+                name="Order"
+                component={SummaryOrderScreen}
+                options={{ title: 'Order' }}
+            />
+            <Stack.Screen
+                name="Teaching"
+                component={TeachOrderScreen}
+                options={{ title: 'Teaching' }}
+            />
+            <Stack.Screen
+                name="TurnOrder"
+                component={TurnOrderScreen}
+                options={{ title: 'TurnOrder' }}
+            />
+            <Stack.Screen
+                name="TurnOrderTH"
+                component={TurnOrderScreenTH}
+                options={{ title: 'TurnOrderTH' }}
+            />
+            <Stack.Screen
+                name="ActionOrderTH"
+                component={ActionOrderScreenTH}
+                options={{ title: 'ActionOrderTH' }}
+            />
+            <Stack.Screen
+                name="ActionOrder"
+                component={ActionOrderScreen}
+                options={{ title: 'ActionOrder' }}
+            />
+            <Stack.Screen
+                name="MoveTutorial"
+                component={MoveTutorialScreen}
+                options={{ title: 'MoveTutorial' }}
+            />
+        </Stack.Navigator>
+    );
+}
 
-});
+export default function AllCartTabNavigator() {
 
+    const linking = {
+        prefixes: [prefix],
+    };
+    return (
+        <NavigationContainer linking={linking} fallback={<Text>Loading...</Text>}>
+            <Tab.Navigator>
+                <Tab.Screen name="Army1" component={AllArmyTabNavigator} />
+                <Tab.Screen name="Cart" component={AllSelectedTabNavigator}
+                    listeners={({ navigation, route }) => ({
+                        tabPress: e => {
+                            // Prevent default action
 
-export default createAppContainer(AllCartTabNavigator);
+                            // Do something with the `navigation` object
+                            navigation.setParams({ name: 'test' });
+                        },
+                    })}
+                />
+                <Tab.Screen name="Tutor" component={AllTutorialTabNavigator} />
+            </Tab.Navigator>
+        </NavigationContainer>
+    );
+}

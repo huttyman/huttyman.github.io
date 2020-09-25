@@ -50,11 +50,12 @@ export default class ArmyScreen extends Component {
 
     renderHeader = (section, _, isActive) => {
         //Accordion Header view
-
+        console.log('testdd');
+        console.log(this.props);
         return (
             
             <TouchableOpacity onPress={()=>{
-                    this.props.navigation.navigate({ routeName: 'AllCartScreen',params:{armyId:section.section.id} });
+                    this.props.navigation.navigate('AllCartScreen',{armyId:section.section.id} );
                     }}>
                 <View key={section.section.id} style={styles.header} >
                     <View style={{ zIndex: 1, backgroundColor: Color.mainBlack, borderRadius: 45,maxWidth:80,minWidth:80,flex:1,borderWidth:4,borderColor:Color.mainBlack,overflow:"hidden"}}>

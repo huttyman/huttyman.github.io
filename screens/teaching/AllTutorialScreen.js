@@ -11,7 +11,7 @@ const ListItem = props =>{
         <View style={{padding:15,paddingLeft:20,borderBottomWidth:1,borderBottomColor:"#c7c7c7"}}>
             
         <TouchableOpacity onPress={()=>{
-            props.navigation.navigate({ routeName: 'MoveTutorial',params:{titleId:props.data.id} });
+            props.navigation.navigate('MoveTutorial',{titleId:props.data.id});
             }}>
             <Text style={{fontWeight:"500",fontSize:16}}>{props.data.title}</Text>
             </TouchableOpacity>

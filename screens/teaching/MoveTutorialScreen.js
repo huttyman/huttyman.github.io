@@ -20,9 +20,7 @@ const TopicContainer = props => {
 };
 
 const MoveTutorialScreen = props => {
-    const tutorialId = props.navigation.getParam('titleId');
-    console.log(tutorialId);
-
+    const tutorialId = props.route.params.titleId;
     const tutorialData = TUTORIAL.filter(item => item.id == tutorialId);
     const window = Dimensions.get('window');
     return (

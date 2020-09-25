@@ -25,10 +25,10 @@ const TeachOrderScreen = props => {
         <ScrollView>
 
             <View style={{ justifyContent: "space-around", flexDirection: "row",padding:10 }}>
-                <TouchableOpacity  onPress={()=>{props.navigation.navigate({ routeName: i18n.t("all_order_screen.teach_order_screen.Turn Order RouteName") });}}>
+                <TouchableOpacity  onPress={()=>{props.navigation.navigate(i18n.t("all_order_screen.teach_order_screen.Turn Order RouteName"));}}>
                     <Text style={{textDecorationLine:"underline"}}>{i18n.t("all_order_screen.teach_order_screen.Turn Order")}</Text>
                 </TouchableOpacity>
-                <TouchableOpacity  onPress={()=>props.navigation.navigate({ routeName: 'ActionOrder' })}>
+                <TouchableOpacity  onPress={()=>props.navigation.navigate('ActionOrder')}>
                     <Text style={{textDecorationLine:"underline"}}>{i18n.t("all_order_screen.teach_order_screen.Attack order")}</Text>
                 </TouchableOpacity>
             </View>
