@@ -8,9 +8,6 @@ import {
   View,
   Image,
   TouchableOpacity,
-  BackHandler,
-  ToastAndroid,
-  Alert,
 } from 'react-native';
 //import basic react native components
 import * as Animatable from 'react-native-animatable';
@@ -89,11 +86,6 @@ export default class CollapseMainExample extends Component {
     this._unsubscribe();
   }
 
-  handleBackButton() {
-    Alert.alert("test", "alert");
-    ToastAndroid.show('Back button is pressed', ToastAndroid.SHORT);
-    return true;
-  }
 
 
   renderHeader = (section, _, isActive) => {

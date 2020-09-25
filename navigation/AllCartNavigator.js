@@ -31,7 +31,7 @@ const AllArmyTabNavigator = (props) => {
 
         <Stack.Navigator
             initialRouteName="Army"
-            screenOptions={{ gestureEnabled: false }}
+            
         >
             <Stack.Screen
                 name="Army"
