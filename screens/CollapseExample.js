@@ -408,7 +408,7 @@ export default class CollapseExampleTestTemplate extends Component {
 const styles = StyleSheet.create({
   headerDetailText: {
     alignContent: "flex-start",
-    paddingVertical: 2,
+    paddingVertical: 1,
   },
   headerDetailContainer: {
     flexDirection: "row",
@@ -447,11 +447,12 @@ const styles = StyleSheet.create({
     flex: 8,
     textAlign: "left",
     fontSize: 16,
-    fontWeight: '500',
+    fontWeight: '400',
     color: Color.mainBlack,
     paddingLeft: 10,
     paddingTop: 3,
     textAlignVertical: "center",
+    justifyContent:"center",
   },
   headerSizeText: {
     flex: 1,

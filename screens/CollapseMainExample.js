@@ -124,8 +124,6 @@ export default class CollapseMainExample extends Component {
   };
 
   render() {
-    console.log('bbb');
-    console.log(this);
     const { multipleSelect, activeSections } = this.state;
     const armyId = this.props.route.params.armyId;
     

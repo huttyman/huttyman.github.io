@@ -22,7 +22,7 @@ import MoveTutorialScreen from '../screens/teaching/MoveTutorialScreen'
 import AllTutorialScreen from '../screens/teaching/AllTutorialScreen';
 import * as Linking from 'expo-linking';
 
-const prefix = Linking.makeUrl('/');
+const prefix = Linking.makeUrl('/infinity_app/');
 const Stack = createStackNavigator();
 const Tab = createMaterialTopTabNavigator();
 
@@ -52,7 +52,7 @@ const AllArmyTabNavigator = (props) => {
             <Stack.Screen
                 name="Army"
                 component={ArmyScreen}
-                options={{ title: "Army selection [CODE ONE] v2.8b" }}
+                options={{ title: "Army selection [CODE ONE] v2.8c" }}
                 initialParams={{ armyId: 'pano' }}
             />
             <Stack.Screen
@@ -88,10 +88,7 @@ const AllTutorialTabNavigator = (props) => {
             screenOptions={{
                 headerStyle:{
                     backgroundColor: "white",
-                    height: 40,
-                    
-                    borderBottomWidth:1,
-                    borderColor: "red",
+                    height: 40, 
                 },
                 headerTitleStyle: {
                     color: "black",
