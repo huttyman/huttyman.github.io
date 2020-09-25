@@ -50,8 +50,6 @@ export default class ArmyScreen extends Component {
 
     renderHeader = (section, _, isActive) => {
         //Accordion Header view
-        console.log('testdd');
-        console.log(this.props);
         return (
             
             <TouchableOpacity onPress={()=>{
@@ -97,7 +95,7 @@ export default class ArmyScreen extends Component {
 
                 {/* score count header*/}
                 
-                <View style={{ backgroundColor: Color.mainGrey, paddingHorizontal: 15,height:25 }}>
+                <View style={{ backgroundColor: Color.mainGrey, paddingVertical: "auto",height:25 }}>
                     <ScoreTitle />
                 </View>
                 

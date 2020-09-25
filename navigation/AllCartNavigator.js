@@ -26,23 +26,37 @@ const prefix = Linking.makeUrl('/');
 const Stack = createStackNavigator();
 const Tab = createMaterialTopTabNavigator();
 
+const HeaderOption = {
+    headerStyle:{
+        backgroundColor: Colors.mainGrey,
+        height: 40,
+    },
+    headerTitleStyle: {
+        color: Colors.mainWhite,
+        fontSize:18,
+    },
+    headerTintColor: Colors.mainWhite,
+    gestureEnabled: false,
+
+};
+
 const AllArmyTabNavigator = (props) => {
     return (
 
         <Stack.Navigator
             initialRouteName="Army"
-            
+            screenOptions={HeaderOption}
         >
             <Stack.Screen
                 name="Army"
                 component={ArmyScreen}
-                options={{ title: 'My app' }}
+                options={{ title: "Army selection [CODE ONE] v2.8a" }}
                 initialParams={{ armyId: 'pano' }}
             />
             <Stack.Screen
                 name="AllCartScreen"
                 component={CollapseMainExample}
-                options={{ title: 'My app' }}
+                options={{ title: 'Unit' }}
             />
         </Stack.Navigator>
     );
@@ -53,12 +67,12 @@ const AllSelectedTabNavigator = (props) => {
 
         <Stack.Navigator
             initialRouteName="Cart"
-            screenOptions={{ gestureEnabled: false }}
+            screenOptions={HeaderOption}
         >
             <Stack.Screen
                 name="Cart"
                 component={CollapseExample}
-                options={{ title: 'cart' }}
+                options={{ title: 'Selected Unit' }}
             />
         </Stack.Navigator>
     );
@@ -69,7 +83,7 @@ const AllTutorialTabNavigator = (props) => {
 
         <Stack.Navigator
             initialRouteName="All"
-            screenOptions={{ gestureEnabled: false }}
+            screenOptions={HeaderOption}
         >
             <Stack.Screen
                 name="All"
@@ -128,33 +142,47 @@ const AllTutorialTabNavigator = (props) => {
 
 
 export default function AllCartTabNavigator() {
-    const [blank,SetBlank] = useState(false);
+    const [blank, SetBlank] = useState(false);
     const linking = {
         prefixes: [prefix],
     };
 
 
     return (
-        <NavigationContainer linking={linking} fallback={<Text>Loading...</Text>}>
-            <Tab.Navigator swipeEnabled="false" tabBarPosition="bottom">
+        <NavigationContainer linking={linking} fallback={<Text>Loading...</Text>} >
+            <Tab.Navigator tabBarPosition="bottom"
+                tabBarOptions={{
+                    showIcon: true,
+
+                    activeTintColor: "white",
+                    pressColor: "black",
+                    style: {
+                        backgroundColor: Colors.mainGrey,
+                        height: 50,
+                    },
+                    labelStyle: { fontSize: 10 },
+                    tabStyle: {
+                        height: 20,
+                        padding: 3,
+                    },
+                    indicatorStyle: {
+                        height: '100%',
+                        backgroundColor: "black"
+                    },
+
+                }}
+            >
                 <Tab.Screen name="Army1"
                     component={AllArmyTabNavigator}
                     options={{
                         tabBarLabel: 'Army',
-                        tabBarIcon: ({ color, size }) => (
+                        tabBarIcon: ({ color }) => (
                             <Ionicons name='ios-archive' size={24} color={color} />
                         ),
+
                     }}
                 />
                 <Tab.Screen name="Cart" component={AllSelectedTabNavigator}
-                    listeners={({ navigation, route }) => ({
-                        tabPress: e => {
-                            // Prevent default action
-                            console.log(navigation);
-                            console.log(route);
-                            console.log('fff');
-                        },
-                    })}
                     options={{
                         tabBarLabel: 'Choosen List',
                         tabBarIcon: ({ color, size }) => (
@@ -163,15 +191,13 @@ export default function AllCartTabNavigator() {
                     }}
                 />
                 <Tab.Screen name="Tutor" component={AllTutorialTabNavigator}
+
                     options={{
                         tabBarLabel: 'Help',
                         tabBarIcon: ({ color, size }) => (
                             <Ionicons name='ios-book' size={24} color={color} />
                         ),
                     }}
-                    activeColor={Colors.mainBlack}
-                    inactiveColor={Colors.mainGrey}
-                    barStyle={{ backgroundColor: 'red' }}
                 />
             </Tab.Navigator>
         </NavigationContainer>
