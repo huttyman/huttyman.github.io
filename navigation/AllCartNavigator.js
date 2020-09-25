@@ -30,6 +30,8 @@ const HeaderOption = {
     headerStyle:{
         backgroundColor: Colors.mainGrey,
         height: 40,
+        borderBottomWidth:1,
+        borderColor: Colors.mainGrey,
     },
     headerTitleStyle: {
         color: Colors.mainWhite,
@@ -50,7 +52,7 @@ const AllArmyTabNavigator = (props) => {
             <Stack.Screen
                 name="Army"
                 component={ArmyScreen}
-                options={{ title: "Army selection [CODE ONE] v2.8a" }}
+                options={{ title: "Army selection [CODE ONE] v2.8b" }}
                 initialParams={{ armyId: 'pano' }}
             />
             <Stack.Screen
@@ -83,22 +85,37 @@ const AllTutorialTabNavigator = (props) => {
 
         <Stack.Navigator
             initialRouteName="All"
-            screenOptions={HeaderOption}
+            screenOptions={{
+                headerStyle:{
+                    backgroundColor: "white",
+                    height: 40,
+                    
+                    borderBottomWidth:1,
+                    borderColor: "red",
+                },
+                headerTitleStyle: {
+                    color: "black",
+                    fontSize:18,
+                },
+                headerTintColor: "black",
+                gestureEnabled: false,
+            
+            }}
         >
             <Stack.Screen
                 name="All"
                 component={AllOrderScreen}
-                options={{ title: 'All' }}
+                options={{ title: 'All Help/Reference' }}
             />
             <Stack.Screen
                 name="AllTutorial"
                 component={AllTutorialScreen}
-                options={{ title: 'AllTutorial' }}
+                options={{ title: 'All reference' }}
             />
             <Stack.Screen
                 name="ExplainStat"
                 component={ExplainStat}
-                options={{ title: 'ExplainStat' }}
+                options={{ title: 'Explain unit and weapon' }}
             />
             <Stack.Screen
                 name="Order"
@@ -108,17 +125,17 @@ const AllTutorialTabNavigator = (props) => {
             <Stack.Screen
                 name="Teaching"
                 component={TeachOrderScreen}
-                options={{ title: 'Teaching' }}
+                options={{ title: 'Teaching Order' }}
             />
             <Stack.Screen
                 name="TurnOrder"
                 component={TurnOrderScreen}
-                options={{ title: 'TurnOrder' }}
+                options={{ title: 'Turn Order' }}
             />
             <Stack.Screen
                 name="TurnOrderTH"
                 component={TurnOrderScreenTH}
-                options={{ title: 'TurnOrderTH' }}
+                options={{ title: 'Turn Order (Thai)' }}
             />
             <Stack.Screen
                 name="ActionOrderTH"
@@ -128,12 +145,12 @@ const AllTutorialTabNavigator = (props) => {
             <Stack.Screen
                 name="ActionOrder"
                 component={ActionOrderScreen}
-                options={{ title: 'ActionOrder' }}
+                options={{ title: 'Action Order' }}
             />
             <Stack.Screen
                 name="MoveTutorial"
                 component={MoveTutorialScreen}
-                options={{ title: 'MoveTutorial' }}
+                options={{ title: 'Action Reference' }}
             />
         </Stack.Navigator>
     );
@@ -159,6 +176,8 @@ export default function AllCartTabNavigator() {
                     style: {
                         backgroundColor: Colors.mainGrey,
                         height: 50,
+                        borderTopWidth:1,
+                        borderColor:Colors.mainWhite,
                     },
                     labelStyle: { fontSize: 10 },
                     tabStyle: {
@@ -167,7 +186,7 @@ export default function AllCartTabNavigator() {
                     },
                     indicatorStyle: {
                         height: '100%',
-                        backgroundColor: "black"
+                        backgroundColor: "#101010",
                     },
 
                 }}

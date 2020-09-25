@@ -95,7 +95,7 @@ export default class ArmyScreen extends Component {
 
                 {/* score count header*/}
                 
-                <View style={{ backgroundColor: Color.mainGrey, paddingVertical: "auto",height:25 }}>
+                <View style={{ backgroundColor: Color.mainGrey, paddingHorizontal: 15, height:35,justifyContent:"center" }}>
                     <ScoreTitle />
                 </View>
                 
