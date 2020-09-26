@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/static/js/app.5e3db189.chunk.js",
-    "app.js.map": "/static/js/app.5e3db189.chunk.js.map",
+    "app.js": "/static/js/app.e2585c3f.chunk.js",
+    "app.js.map": "/static/js/app.e2585c3f.chunk.js.map",
     "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
     "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
-    "static/js/2.1c6a218c.chunk.js": "/static/js/2.1c6a218c.chunk.js",
-    "static/js/2.1c6a218c.chunk.js.map": "/static/js/2.1c6a218c.chunk.js.map",
+    "static/js/2.90899971.chunk.js": "/static/js/2.90899971.chunk.js",
+    "static/js/2.90899971.chunk.js.map": "/static/js/2.90899971.chunk.js.map",
     "fonts/AntDesign.ttf": "/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/./fonts/Feather.ttf",
@@ -24,7 +24,11 @@
     "index.html": "/index.html",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "static/js/2.1c6a218c.chunk.js.LICENSE.txt": "/static/js/2.1c6a218c.chunk.js.LICENSE.txt",
+    "static/js/2.90899971.chunk.js.LICENSE.txt": "/static/js/2.90899971.chunk.js.LICENSE.txt",
+    "static/media/aro1.PNG": "/static/media/aro1.ec186f9d.PNG",
+    "static/media/aro2.PNG": "/static/media/aro2.703ccb4a.PNG",
+    "static/media/aro3.PNG": "/static/media/aro3.811c6d9b.PNG",
+    "static/media/aro4.PNG": "/static/media/aro4.df6eae16.PNG",
     "static/media/bell.png": "/static/media/bell.cf04af27.png",
     "static/media/cb-caliban.svg": "/static/media/cb-caliban.da0665e8.svg",
     "static/media/cb-gwailo.svg": "/static/media/cb-gwailo.084499a6.svg",
@@ -55,8 +59,8 @@
     "static/media/combatRange5.PNG": "/static/media/combatRange5.3c9f8139.PNG",
     "static/media/combined-army.svg": "/static/media/combined-army.070d1a23.svg",
     "static/media/cover1.PNG": "/static/media/cover1.2b29e1b2.PNG",
-    "static/media/cover2.PNG": "/static/media/cover2.eddd171d.PNG",
-    "static/media/cover3.PNG": "/static/media/cover3.516cabda.PNG",
+    "static/media/cover2.PNG": "/static/media/cover2.516cabda.PNG",
+    "static/media/cover3.PNG": "/static/media/cover3.eddd171d.PNG",
     "static/media/cover4.PNG": "/static/media/cover4.8f75cd56.PNG",
     "static/media/gun.png": "/static/media/gun.b8a50bd2.png",
     "static/media/heart.png": "/static/media/heart.23b5c2c0.png",
@@ -123,7 +127,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.2e9f1821.js",
-    "static/js/2.1c6a218c.chunk.js",
-    "static/js/app.5e3db189.chunk.js"
+    "static/js/2.90899971.chunk.js",
+    "static/js/app.e2585c3f.chunk.js"
   ]
 }
