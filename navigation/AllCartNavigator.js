@@ -22,7 +22,8 @@ import MoveTutorialScreen from '../screens/teaching/MoveTutorialScreen'
 import AllTutorialScreen from '../screens/teaching/AllTutorialScreen';
 import * as Linking from 'expo-linking';
 
-const prefix = Linking.makeUrl('/infinity_app/');
+// const prefix = Linking.makeUrl('/infinity_app/');
+const prefix = 'https://huttyman.github.io/';
 const Stack = createStackNavigator();
 const Tab = createMaterialTopTabNavigator();
 
@@ -52,7 +53,7 @@ const AllArmyTabNavigator = (props) => {
             <Stack.Screen
                 name="Army"
                 component={ArmyScreen}
-                options={{ title: "Army selection [CODE ONE] v2.8c" }}
+                options={{ title: "Army selection [CODE ONE] v2.8b" }}
                 initialParams={{ armyId: 'pano' }}
             />
             <Stack.Screen
@@ -158,12 +159,29 @@ const AllTutorialTabNavigator = (props) => {
 export default function AllCartTabNavigator() {
     const [blank, SetBlank] = useState(false);
     const linking = {
-        prefixes: [prefix],
+        prefixes: ['https://huttyman.github.io/','https://huttyman.github.io/infinity_app/'],
+        config : {
+            screens: {
+              Home: {
+                initialRouteName: 'Feed',
+                screens: {
+                  Profile: 'users/:id',
+                  Settings: {
+                    path: 'settings',
+                    screens: {
+                      InvalidSettings: '*',
+                    },
+                  },
+                },
+              },
+              NotFound: 'army2',
+            },
+          }
     };
 
 
     return (
-        <NavigationContainer linking={linking} fallback={<Text>Loading...</Text>} >
+        <NavigationContainer  linking={linking} fallback={<Text>Loading...</Text>} >
             <Tab.Navigator tabBarPosition="bottom"
                 tabBarOptions={{
                     showIcon: true,

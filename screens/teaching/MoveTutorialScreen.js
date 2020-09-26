@@ -9,11 +9,16 @@ const TopicContainer = props => {
     if(i18n.locale == "th" && props.data.descTH){
         topicText = props.data.descTH;
     }
+
+    let picture;
+    if(props.data.image){
+        picture = <Image source={require('../../assets/tutorial/'+props.data.image)}   style={{width: (props.window.width-100) ,height: (props.data.imageSize.height/props.data.imageSize.width)*(props.window.width-100)}} />;
+    }
     return (
         <View style={styles.topicContainer}>
             <Text style={styles.tutorText}>{topicText}</Text>
             <View style={{width:'100%',alignItems:"center"}}>
-            <Image source={require('../../assets/tutorial/'+props.data.image)}   style={{width: (props.window.width-100) ,height: (props.data.imageSize.height/props.data.imageSize.width)*(props.window.width-100)}} />
+                {picture}
             </View>
         </View>
     );

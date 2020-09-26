@@ -48,5 +48,32 @@ export const TUTORIAL = [
             },
         ]
     },
+    {
+        "id": "cover",
+        "title": "Cover",
+        "page": "43",
+        "detail": [
+            {
+                "desc": "The term Cover refers to all pieces of scenery that partially or completely obstruct LoF, thus preventing the attacker from making a clean BS Attack. \n \n This case is no cover which mean all unit can shoot as normal",
+                "image": "cover1.PNG",
+                "imageSize": {"width":399,"height":250}
+            },
+            {
+                "desc": "► If the target is in Total Cover, the attacker may not declare a BS Attack with Weapons, Special Skills, or Equipment, that requires LoF. \n\n Total cover block all area of unit you want to shoot in this case you cannot declare BS(range attack)",
+                "image": "cover2.PNG",
+                "imageSize": {"width":399,"height":300}
+            },
+            {
+                "desc": "Partial cover is when there are something block some part of unit you want to shoot. Partial cover give you effect of \n\n - -3 BS for attacker \n - +3 ARM for defender(if got hit)",
+                "image": "cover3.PNG",
+                "imageSize": {"width":399,"height":320}
+            },
+            {
+                "desc": "Tips. Partial cover can count even if your unit got block by a little bit. In this example unit above building got partial cover because building is block his base",
+                "image": "cover4.PNG",
+                "imageSize": {"width":399,"height":440}
+            },
+        ]
+    },
 
 ];

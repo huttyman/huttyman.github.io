@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "http://huttyman.github.io/infinity_app",
+  "homepage": "https://huttyman.github.io/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
