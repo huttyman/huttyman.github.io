@@ -75,5 +75,48 @@ export const TUTORIAL = [
             },
         ]
     },
+    {
+        "id": "aro",
+        "title": "ARO (Automatic reaction order)",
+        "page": "22",
+        "detail": [
+            {
+                "descTH": "ARO (Automatic Reaction Order) เป็นAction ที่เราจะได้ทำเมื่อเป็น Turnของฝ่ายตรงข้าม (ฝ่ายตรงข้ามเป็นฝ่านเล่น) โดยที่เราจะสามารถให้ทุกตัวละครเราใช้ ARO(เช่น ยิง,หลบ, อื่นๆ)ได้ตัวละ1ครั้งทุกOrderที่ฝั่งตรงข้ามใช้ใหม่",
+                "desc": "ARO (Automatic Reaction Order) is Action that you can do when it is your oppent active turn. Your every unit will each have 1 ARO action in every order your opponet use (which mean when your opponent begin new order your unit will regen ARO)",
+            },
+            {
+                "descTH": "เงื่อนไขที่จะใช้ AROได้ เมื่อตรงตามเงื่อนไขอย่างไดอย่างหนึ่ง \n ► ตัวละครสามารถเห็นศัตรูได้(Line of fire) \n ► ตัวละครศัตรูอยู่ Zone of control (รอบตัว8นิ้ว) (ใช้ยิงกลับไม่ได้ ได้แค่หลบและไม่กี่อย่าง) \n ► โดนอาวุธtemplate(พวกอาวุธกว้าง) หรืออาวุธHack  \n ► หากมีskillพิเศษ",
+                "desc": "You unit can do ARO if your unit follow one of these condition \n ► Unit have lof(Line of fire) \n ► Unit have Zone of control (8 inched around unit) (can't attack back but can dodge or some action) \n ► got attacked from template weapon or Hack  \n ► Have special skill",
+            },
+            {
+                "descTH": "Zone of control คือพื้นที่รอบตัว8นิ้ว(สามารถใช้หลบเวลาศัตรูยิงเราตอนที่เราไม่เห็นศัตรูได้ แต่ph-3)",
+                "desc": "Zone of control is 8 inches around unit(can use dodge when you got attacked but your unit don't have line of fire with mod ph-3)",
+                "image": "aro4.PNG",
+                "imageSize": {"width":399,"height":270}
+            },
+            {
+                "descTH": "*Tips ถ้าตัวเราใช้ARO แล้วunitเราเห็นตัวศัตรูตั้งแต่ก่อนวิ่งเข้า Cover จะสามารถเลือกยิงตั้งแต่unitฝั่งตรงข้ามก่อนเข้าcoverได้ (ทำให้ฝั่งตรงข้ามใช้ประโยชน์ของcoverไม่ได้) ",
+                "desc": "*Tips when you use ARO for attack and your unit saw opponent unit before move to Cover. You can choose to attack that unit before they reach cover (make your opponent unable to use cover benefit) ",
+                "image": "aro3.PNG",
+                "imageSize": {"width":399,"height":320}
+            },
+            {                
+                "descTH": "Example of play ARO,  Left team(Orange) is Active player. Our team is Right team(Blue) reactive player \n\t1. Orange team use Order for top unit and use first action for move to building corner\n\t2. end of first action then they will ask blue team for any ARO. Right team(blue) have 2 unit that can see oppent active unit and have those 2 unit use ARO for shooting\n\t3. Orange team use second action for shoot(Combi rifle 3b) by using 2dice to top blue unit and 1 dice for middle blue unit (see more information at Face-off)",
+                "desc": "ยกตัวอย่างARO ฝั่งซ้าย(สีส้ม) เป็นฝ่ายเล่น  ส่วนเราเป็นฝ่ายขวา(สีน้ำเงิน)ฝั่งรอเล่น \n\t1. ฝ่ายส้มใช้ order ให้ตัวบนและใช้ actionแรกไปกับการเดินโผล่ขอบตึกออกมา \n\t2. จบactionของฝั่งตรงข้ามเขาจะถามเราว่า AROไหม ซึ่งฝั่งเรา(สีฟ้า) มีตัวunit2ตัวที่เห็นunitของฝ่ายตรงข้าม และสั่งให้ทั้งสองunitใช้AROในการยิง\n\t3. ฝั่งตรงข้าม(สีส้ม) ใช้action ที่2 ในการยิง(Combi rifle 3b) 2ลูกไปที่ตัวบนและ1ลูกยิงไปที่ตัวล่าง (ดูวิธียิงที่ range combat และ face-off)",
+                "image": "aro1.PNG",
+                "imageSize": {"width":399,"height":330}
+            },
+            {
+                "descTH": "\t4. (ต่อจากเมื่อกี้)  orderต่อไปของสีส้ม ให้unitตรงกลาง  เดินไปยังcoverข้างหน้า\n\t5. พอฝั่งตรงข้ามใช้actionแรกเสร็จก็จะถามว่าเราจะAROไหม ซึ่งเรามี unit สีฟ้า1ตัวที่เห็น จึงให้ตัวนั้นใช้ARO ในการยิง unitฝั่งตรงข้าม(สีส้ม ) ซึ่งเนื่องจากunitเราเห็นตัวศัตรูตั้งแต่ก่อนเข้าcoverใหม่ เราจึงเลือกยิงตั้งแต่ฝั่งตรงข้ามยังไม่เข้าcover\n\t6. ฝั่งสีส้มใช้ actionที่2ในการยิงสวนเรากับ เข้าสู่การ face-off  ",
+                "desc": "\t4. (Continue)  Orange team(Left) use next order for middle unit and use first action to move at middle cover\n\t5. After first action it's time for ARO, Blue team(right) have 1 unit that can see active unit and use ARO for shoot him which can see orange unit since before he reach cover. So blue unit can shoot orange unit before reach cover\n\t6. Orange team use second action for shoot back and begin face-off  ",
+                "image": "aro2.PNG",
+                "imageSize": {"width":399,"height":330}
+            },
+            {
+                "descTH": "***สำคัญมาก ในOrderเดียวกัน หากตัวunitเราเห็นคู่ต่อสู้ใน actionแรกของฝั่งตรงข้าม แล้วเราไม่เลือกทำARO จะถือว่าตัวunitนั้น สละสิทAROใน turnนั้นไป  มีเงื่อนไขเดียวที่จะทำ AROในactionที่2ของศัตรูได้ ก็คือเมื่อ unit เรานั้นไม่เห็นฝั่งตรงข้ามตั้งแต่ actionแรก\n\n\tเช่นตัวอย่างด้านบนข้อ4 หลังจากฝ่ายตรงข้าม(สีส้ม)ใช้actionในการเดินเข้าcover ถ้าเรา(ฝ่ายน้ำเงิน)ตัดสินใจไม่ใช้AROในactionนั้น(อาจจะเพราะอยากดูคู่ต่อสู้จะทำอะไรต่อหรืออะไรก็แล้วแต่)   เมื่อฝ่ายตรงข้ามใช้actionที่สองในการยิง เราจะใช้AROในการหลบหรือยิงกลับไม่ได้",
+                "desc": "***Important In same order if your unit can see opponent unit since their first action but choose not to do ARO. It's mean that you will loose ARO for the rest of the turn. The only reason for your unit to be able to use ARO in opponent second turn is when your unit not see opponent unit at first action.\n\n\t For example in above example number 4. after orange team use action for move to cover and if we not use ARO for shoot (maybe because you want to see what he will do next or some reason). Then for orange team shoot your unit. you will not able to shoot back or dodge because you loose ARO.",
+            },
+        ]
+    },
 
 ];
