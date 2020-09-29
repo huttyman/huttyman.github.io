@@ -125,8 +125,15 @@ const AllCart = props => {
         let skillText = <Text></Text>;
         let equipmentText = <Text></Text>;
         let ltTokenImage;
-
-
+        let unitTokenImage;
+        
+        if(item.isPeriperial){
+            if(item.isPeriperial == "TRUE"){
+                unitTokenImage = <Image source={require('../assets/unit-token.svg')} style={{ height: 20, width: 20 }} />;
+            }
+        }else{
+            unitTokenImage = <Image source={require('../assets/unit-token.svg')} style={{ height: 20, width: 20 }} />;
+        }
 
         if (skillLength != 0) {
             if (item.skillList.includes('lt')) {
@@ -163,6 +170,7 @@ const AllCart = props => {
                 <View style={styles.itemContainer}>
                     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
                         {ltTokenImage}
+                        {unitTokenImage}
                     </View>
                     <View style={{ flex: 6, alignItems: "flex-start" }}>
                         <Text>{props.data.shortTitle}</Text>

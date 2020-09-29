@@ -126,8 +126,6 @@ export default class CollapseExampleTestTemplate extends Component {
   };
 
   componentDidMount() {
-    console.log('tedd');
-    console.log(React.useRef());
     this._unsubscribe = this.props.navigation.addListener('focus', () => {
       // The screen is focused
       // Call any action
@@ -221,7 +219,7 @@ export default class CollapseExampleTestTemplate extends Component {
       combinedSkill = unitItem.unitSkill.concat(combinedSkill);
     }
 
-
+    console.log(unitItem);
     let combinedEquipment;
     if (unitSetItem.equipmentList) {
       combinedEquipment = unitSetItem.equipmentList;
@@ -232,14 +230,21 @@ export default class CollapseExampleTestTemplate extends Component {
       combinedEquipment = unitItem.unitEquipment.concat(combinedEquipment);
     }
 
-    global.modalFunction = this.toggleModalVisibility;
     const gunLength = unitSetItem.gunList.length;
     const skillLength = combinedSkill ? combinedSkill.length : 0;
     const equipmentLength = combinedEquipment ? combinedEquipment.length : 0;
     let skillText = <Text></Text>;
     let equipmentText = <Text></Text>;
     let ltTokenImage;
-    
+    let unitTokenImage;
+        
+    if(unitItem.isPeriperial){
+        if(unitItem.isPeriperial == "FALSE"){
+            unitTokenImage = <Image source={require('../assets/unit-token.svg')} style={{ height: 20, width: 20 }} />;
+        }
+    }else{
+        unitTokenImage = <Image source={require('../assets/unit-token.svg')} style={{ height: 20, width: 20 }} />;
+    }
 
     if (skillLength != 0) {
       skillText = <Text style={[styles.headerDetailText, { color: 'green' }]}>Skill: {combinedSkill.map((gunId, index) => <Text key={index}>{skillItem(gunId, index, skillLength, this.toggleModalVisibility)}</Text>)}</Text>;
@@ -281,6 +286,7 @@ export default class CollapseExampleTestTemplate extends Component {
         <View style={styles.headerDetailContainer}>
           <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
             {ltTokenImage}
+            {unitTokenImage}
           </View>
           <View style={{ flex: 6, alignItems: "flex-start", paddingHorizontal: 5, paddingBottom: 5 }}>
             <View style={styles.headerDetailText} >

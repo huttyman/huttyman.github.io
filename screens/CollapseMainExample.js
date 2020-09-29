@@ -7,7 +7,7 @@ import {
   Text,
   View,
   Image,
-  TouchableOpacity,
+  TouchableOpacity, FlatList
 } from 'react-native';
 //import basic react native components
 import * as Animatable from 'react-native-animatable';
@@ -143,7 +143,8 @@ export default class CollapseMainExample extends Component {
         <View style={{ backgroundColor: Color.mainGrey, paddingHorizontal: 15, height:35,justifyContent:"center" }}>
           <ScoreTitle />
         </View>
-        <ScrollView nestedScrollEnabled={true} contentContainerStyle={{ paddingTop: 5 }}>
+        <ScrollView nestedScrollEnabled={false} contentContainerStyle={{ paddingTop: 5 }}>
+   
 
           <View style={styles.multipleToggle}>
             <Text style={styles.multipleToggle__title}>
