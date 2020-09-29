@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Text, Button, Linking } from 'react-native';
+import { StyleSheet, View, Text, Button, Linking, FlatList, ScrollView } from 'react-native';
 import Colors from '../templates/Colors';
 import i18n from 'i18n-js';
 
@@ -18,12 +18,14 @@ const AllOrderScreen = props => {
 
     return (
         <View style={styles.container}>
+     
             <View style={styles.buttonContainer}>
                                                                                                 
             <Button style={styles.orderButton} title={i18n.t('all_order_screen.Explain Unit Stat')} onPress={() => props.navigation.navigate('ExplainStat')} />
                 {/* <Button style={styles.orderButton} title={i18n.t('all_order_screen.How to roll dice?')} onPress={() => {Linking.openURL('https://www.facebook.com/wgcinfinitythailand/photos/ms.c.eJw9jssJAFEIAzta~;Ef7b2xByTsOyWgUPjEdYSLu~;ulyGtK9pskhXRAXcl9u5Fq~;lDzLSb9sfWO~;8vLHvvca5Nq~_Pv~;~_NfvQy7kXsveCPm6vci9yWYZ8e4N7MZfn4~;0H5q3LNT~_~_Nz3t.bps.a.173949520867032/173949844200333/?type=3&theater'); }} /> */}
                 <Button style={styles.orderButton} title={i18n.t('all_order_screen.Teach Order')} onPress={() => props.navigation.navigate('Teaching')} />
                 <Button style={styles.orderButton} title={i18n.t('all_order_screen.Action tutorial')} onPress={() => props.navigation.navigate('AllTutorial')} />
+                <Button style={styles.orderButton} title={i18n.t('all_order_screen.Download app to your mobile')} onPress={() => props.navigation.navigate('MoveTutorial',{titleId:'download'})} />
                 {/* <Button style={styles.orderButton}  title={i18n.t('all_order_screen.Action Summary')} onPress={() => props.navigation.navigate({ routeName: 'Order' })} /> */}
                 {/* <Button title="Turn order summary" onPress={()=>{}}/>
                 <Button title="All keyword" onPress={()=>{}}/> */}

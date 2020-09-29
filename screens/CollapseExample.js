@@ -126,6 +126,8 @@ export default class CollapseExampleTestTemplate extends Component {
   };
 
   componentDidMount() {
+    console.log('tedd');
+    console.log(React.useRef());
     this._unsubscribe = this.props.navigation.addListener('focus', () => {
       // The screen is focused
       // Call any action
@@ -331,7 +333,6 @@ export default class CollapseExampleTestTemplate extends Component {
           <ScoreTitle />
         </View>
         <ScrollView  contentContainerStyle={{ paddingTop: 5 }}>
-          <View><Text>Test3333</Text></View>
           <View style={styles.multipleToggle}>
             <Text style={styles.multipleToggle__title}>
               Multiple Expand Allowed?
@@ -372,6 +373,7 @@ export default class CollapseExampleTestTemplate extends Component {
             <Text style={{ color: Color.mainWhite }}>import text</Text>
             <TextInput style={{ color: Color.mainWhite, borderBottomWidth: 1, borderColor: Color.mainWhite }} onChangeText={(text) => this.setState({ clibboardText: text })} />
           </View>
+         
           <Accordion
             activeSections={activeSections}
             sections={global.unitList}

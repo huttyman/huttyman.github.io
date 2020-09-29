@@ -8,6 +8,7 @@ export const EN_lang =  {
         "Activity page/Change log": "Activity page/Change log",
         "Explain Unit Stat": "Explain Unit profile/Weapon/Ammo",
         "Action tutorial" : "Action tutorial",
+        "Download app to your mobile": "Download app to your mobile",
         teach_order_screen: {
             " = Choose both action in any order": " = 2 Actions, Choose both action in any order",
             "Move/Idle/Discovery": "Move/Idle/\nDiscovery",

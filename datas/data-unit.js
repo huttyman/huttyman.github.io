@@ -2072,14 +2072,14 @@
         {
             "id": "1",
             "titleId": "fusi1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "2",
             "titleId": "fusi2",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['med'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -2088,7 +2088,7 @@
         {
             "id": "3",
             "titleId": "fusi3",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "1"
@@ -2096,7 +2096,7 @@
         {
             "id": "4",
             "titleId": "fusi4",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2105,28 +2105,28 @@
         {
             "id": "5",
             "titleId": "fusi5",
-            "gunList": ['miss','pist','ccwp'],
+            "gunList": ['miss','pist1','ccwp'],
             "swc": "1.5",
             "points": "1"
         },
         {
             "id": "6",
             "titleId": "fusi6",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1",
             "points": "1.5"
         },
         {
             "id": "7",
             "titleId": "fusi7",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "1.5"
         },
         {
             "id": "8",
             "titleId": "nok1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "equipmentList": ['mvisor1'],
             "swc": "0",
             "points": "2"
@@ -2134,14 +2134,14 @@
         {
             "id": "9",
             "titleId": "nok2",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "swc": "1.5",
             "points": "2.5"
         },
         {
             "id": "10",
             "titleId": "nok3",
-            "gunList": ['combi','bshot1','bshot2','pist','ccwp'],
+            "gunList": ['combi','bshot1','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2150,21 +2150,21 @@
         {
             "id": "11",
             "titleId": "infi1",
-            "gunList": ['combi','pist','mnccwp'],
+            "gunList": ['combi','pist1','mnccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "12",
             "titleId": "infi2",
-            "gunList": ['bshot1','bshot2','pist','mnccwp'],
+            "gunList": ['bshot1','pist1','mnccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "13",
             "titleId": "koj1",
-            "gunList": ['combi','hpist1','hpist2','daccwp'],
+            "gunList": ['combi','hpist1','daccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2173,21 +2173,21 @@
         {
             "id": "14",
             "titleId": "koj2",
-            "gunList": ['miss','hpist1','hpist2','daccwp'],
+            "gunList": ['miss','hpist1','daccwp'],
             "swc": "1.5",
             "points": "4.5"
         },
         {
             "id": "15",
             "titleId": "koj3",
-            "gunList": ['spit','hpist1','hpist2','daccwp'],
+            "gunList": ['spit','hpist1','daccwp'],
             "swc": "1.5",
             "points": "5"
         },
         {
             "id": "16",
             "titleId": "koj4",
-            "gunList": ['spit','hpist1','hpist2','daccwp'],
+            "gunList": ['spit','hpist1','daccwp'],
             "skillList": ['lt'],
             "swc": "1.5",
             "points": "5"
@@ -2195,28 +2195,28 @@
         {
             "id": "17",
             "titleId": "orc1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "18",
             "titleId": "orc2",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "19",
             "titleId": "orc3",
-            "gunList": ['mrifle1','mrifle2','pist','ccwp'],
+            "gunList": ['mrifle1','pist1','ccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "20",
             "titleId": "orc4",
-            "gunList": ['mrifle1','mrifle2','pist','ccwp'],
+            "gunList": ['mrifle1','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "3"
@@ -2224,7 +2224,7 @@
         {
             "id": "21",
             "titleId": "orc5",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2233,7 +2233,7 @@
         {
             "id": "22",
             "titleId": "orc6",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1",
             "points": "3.5"
@@ -2241,21 +2241,21 @@
         {
             "id": "23",
             "titleId": "orc7",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1.5",
             "points": "3.5"
         },
         {
             "id": "24",
             "titleId": "zhan1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "25",
             "titleId": "zhan2",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['med'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -2264,7 +2264,7 @@
         {
             "id": "26",
             "titleId": "zhan3",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "1"
@@ -2272,7 +2272,7 @@
         {
             "id": "27",
             "titleId": "zhan4",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2281,28 +2281,28 @@
         {
             "id": "28",
             "titleId": "zhan5",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1",
             "points": "1.5"
         },
         {
             "id": "29",
             "titleId": "zhan6",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "1.5"
         },
         {
             "id": "30",
             "titleId": "zhan7",
-            "gunList": ['miss','pist','ccwp'],
+            "gunList": ['miss','pist1','ccwp'],
             "swc": "1.5",
             "points": "1.5"
         },
         {
             "id": "31",
             "titleId": "hun1",
-            "gunList": ['markrifle','pist','ccwp'],
+            "gunList": ['markrifle','pist1','ccwp'],
             "equipmentList": ['mvisor1'],
             "swc": "0.5",
             "points": "3"
@@ -2310,21 +2310,21 @@
         {
             "id": "32",
             "titleId": "hun2",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "33",
             "titleId": "dao1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "4.5"
         },
         {
             "id": "34",
             "titleId": "dao2",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "4.5"
@@ -2332,14 +2332,14 @@
         {
             "id": "35",
             "titleId": "dao3",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "swc": "1.5",
             "points": "5"
         },
         {
             "id": "36",
             "titleId": "dao4",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1.5",
             "points": "5"
@@ -2347,7 +2347,7 @@
         {
             "id": "37",
             "titleId": "dao5",
-            "gunList": ['mrifle1','mrifle2','pist','ccwp'],
+            "gunList": ['mrifle1','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2356,7 +2356,7 @@
         {
             "id": "38",
             "titleId": "dao6",
-            "gunList": ['mrifle1','mrifle2','pist','ccwp'],
+            "gunList": ['mrifle1','pist1','ccwp'],
             "skillList": ['hack','lt'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2365,21 +2365,21 @@
         {
             "id": "39",
             "titleId": "juj1",
-            "gunList": ['combi','hflam','pist','ccwp'],
+            "gunList": ['combi','hflam','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "40",
             "titleId": "juj2",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "41",
             "titleId": "juj3",
-            "gunList": ['combi','hflam','pist','ccwp'],
+            "gunList": ['combi','hflam','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "2"
@@ -2387,14 +2387,14 @@
         {
             "id": "42",
             "titleId": "juj4",
-            "gunList": ['bcombi','hflam','pist','ccwp'],
+            "gunList": ['bcombi','hflam','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "43",
             "titleId": "juj5",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "skillList": ['eng'],
             "swc": "0",
             "points": "2.5"
@@ -2402,28 +2402,28 @@
         {
             "id": "44",
             "titleId": "juj6",
-            "gunList": ['miss','lflam','pist','ccwp'],
+            "gunList": ['miss','lflam','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "45",
             "titleId": "juj7",
-            "gunList": ['spit','hflam','pist','ccwp'],
+            "gunList": ['spit','hflam','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "46",
             "titleId": "guila1",
-            "gunList": ['bshot1','bshot2','antm','pist','ccwp'],
+            "gunList": ['bshot1','antm','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "47",
             "titleId": "guila2",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "2",
             "points": "2"
@@ -2431,7 +2431,7 @@
         {
             "id": "48",
             "titleId": "guila3",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2440,14 +2440,14 @@
         {
             "id": "49",
             "titleId": "mach1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "50",
             "titleId": "mach2",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['mimet3'],
             "swc": "0",
             "points": "1.5"
@@ -2455,28 +2455,28 @@
         {
             "id": "51",
             "titleId": "traudoc1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "52",
             "titleId": "akalis1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "53",
             "titleId": "akalis2",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "54",
             "titleId": "akalis3",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2485,21 +2485,21 @@
         {
             "id": "55",
             "titleId": "akalis4",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "swc": "1.5",
             "points": "2.5"
         },
         {
             "id": "56",
             "titleId": "niss1",
-            "gunList": ['combi','lshot1','lshot2','pist','ccwp'],
+            "gunList": ['combi','lshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "57",
             "titleId": "niss2",
-            "gunList": ['combi','lshot1','lshot2','pist','ccwp'],
+            "gunList": ['combi','lshot1','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1",
             "points": "2.5"
@@ -2507,7 +2507,7 @@
         {
             "id": "58",
             "titleId": "niss3",
-            "gunList": ['combi','lshot1','lshot2','pist','ccwp'],
+            "gunList": ['combi','lshot1','pist1','ccwp'],
             "skillList": ['med'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -2516,7 +2516,7 @@
         {
             "id": "59",
             "titleId": "niss4",
-            "gunList": ['combi','lshot1','lshot2','pist','ccwp'],
+            "gunList": ['combi','lshot1','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2525,56 +2525,56 @@
         {
             "id": "60",
             "titleId": "niss5",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "61",
             "titleId": "niss6",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "62",
             "titleId": "troll1",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','daccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','daccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "63",
             "titleId": "vagar1",
-            "gunList": ['combi','hflam','pist','ccwp'],
+            "gunList": ['combi','hflam','pist1','ccwp'],
             "swc": "0",
             "points": "1.5"
         },
         {
             "id": "64",
             "titleId": "vagar2",
-            "gunList": ['markrifle','antm','pist','ccwp'],
+            "gunList": ['markrifle','antm','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "65",
             "titleId": "vagar3",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "swc": "1.5",
             "points": "2"
         },
         {
             "id": "66",
             "titleId": "aquila1",
-            "gunList": ['apmrifle','pist','ccwp'],
+            "gunList": ['apmrifle','pist1','ccwp'],
             "swc": "0",
             "points": "4.5"
         },
         {
             "id": "67",
             "titleId": "aquila2",
-            "gunList": ['apmrifle','pist','ccwp'],
+            "gunList": ['apmrifle','pist1','ccwp'],
             "skillList": ['specops'],
             "swc": "0",
             "points": "4.5"
@@ -2582,7 +2582,7 @@
         {
             "id": "68",
             "titleId": "aquila3",
-            "gunList": ['apmrifle','pist','ccwp'],
+            "gunList": ['apmrifle','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "4.5"
@@ -2590,28 +2590,28 @@
         {
             "id": "69",
             "titleId": "aquila4",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1.5",
             "points": "5"
         },
         {
             "id": "70",
             "titleId": "boyg1",
-            "gunList": ['mk12','hpist1','hpist2','ccwp'],
+            "gunList": ['mk12','hpist1','ccwp'],
             "swc": "0",
             "points": "4.5"
         },
         {
             "id": "71",
             "titleId": "boyg2",
-            "gunList": ['miss','hpist1','hpist2','ccwp'],
+            "gunList": ['miss','hpist1','ccwp'],
             "swc": "1.5",
             "points": "4.5"
         },
         {
             "id": "72",
             "titleId": "swiss1",
-            "gunList": ['mrifle1','mrifle2','pist','apccwp'],
+            "gunList": ['mrifle1','pist1','apccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2620,14 +2620,14 @@
         {
             "id": "73",
             "titleId": "swiss2",
-            "gunList": ['hmg','pist','apccwp'],
+            "gunList": ['hmg','pist1','apccwp'],
             "swc": "1.5",
             "points": "6"
         },
         {
             "id": "74",
             "titleId": "swiss3",
-            "gunList": ['miss','lshot1','lshot2','pist','apccwp'],
+            "gunList": ['miss','lshot1','pist1','apccwp'],
             "swc": "1.5",
             "points": "6"
         },
@@ -2669,14 +2669,14 @@
         {
             "id": "80",
             "titleId": "crocmen1",
-            "gunList": ['bshot1','bshot2','antm','pist','ccwp'],
+            "gunList": ['bshot1','antm','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "81",
             "titleId": "crocmen2",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "2",
             "points": "2.5"
@@ -2684,7 +2684,7 @@
         {
             "id": "82",
             "titleId": "crocmen3",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2693,14 +2693,14 @@
         {
             "id": "83",
             "titleId": "crocmen4",
-            "gunList": ['msnipe1','msnipe2','antm','pist','ccwp'],
+            "gunList": ['msnipe1','antm','pist1','ccwp'],
             "swc": "1.5",
             "points": "3.5"
         },
         {
             "id": "84",
             "titleId": "kunai1",
-            "gunList": ['mrifle1','mrifle2','pist','ccwp'],
+            "gunList": ['mrifle1','pist1','ccwp'],
             "skillList": ['forwdep4'],
             "swc": "0",
             "points": "2.5"
@@ -2708,35 +2708,35 @@
         {
             "id": "85",
             "titleId": "kunai2",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "86",
             "titleId": "lucust1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "87",
             "titleId": "lucust2",
-            "gunList": ['bcombi','pist','daccwp'],
+            "gunList": ['bcombi','pist1','daccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "88",
             "titleId": "lucust3",
-            "gunList": ['markrifle','pist','ccwp'],
+            "gunList": ['markrifle','pist1','ccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "89",
             "titleId": "lucust4",
-            "gunList": ['bcombi','pist','daccwp'],
+            "gunList": ['bcombi','pist1','daccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2745,49 +2745,49 @@
         {
             "id": "90",
             "titleId": "liangkai1",
-            "gunList": ['chainrifle','lshot1','lshot2','pist','daccwp'],
+            "gunList": ['chainrifle','lshot1','pist1','daccwp'],
             "swc": "0",
             "points": "1.5"
         },
         {
             "id": "91",
             "titleId": "liangkai2",
-            "gunList": ['chainrifle','combi','pist','daccwp'],
+            "gunList": ['chainrifle','combi','pist1','daccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "92",
             "titleId": "yj-mecheng1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "93",
             "titleId": "yj-zhanyisheng1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "94",
             "titleId": "yj-zhanying1",
-            "gunList": ['bshot1','bshot2','chaincolt','pist','paraccwp-6'],
+            "gunList": ['bshot1','chaincolt','pist1','paraccwp-6'],
             "swc": "0",
             "points": "1.5"
         },
         {
             "id": "95",
             "titleId": "yj-zhanying2",
-            "gunList": ['bcombi','chaincolt','pist','paraccwp-6'],
+            "gunList": ['bcombi','chaincolt','pist1','paraccwp-6'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "96",
             "titleId": "yj-zhanying3",
-            "gunList": ['bcombi','chaincolt','pist','paraccwp-6'],
+            "gunList": ['bcombi','chaincolt','pist1','paraccwp-6'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "2"
@@ -2795,14 +2795,14 @@
         {
             "id": "97",
             "titleId": "yj-zhanying4",
-            "gunList": ['miss','chaincolt','pist','paraccwp-6'],
+            "gunList": ['miss','chaincolt','pist1','paraccwp-6'],
             "swc": "1.5",
             "points": "2"
         },
         {
             "id": "98",
             "titleId": "yj-zhanying5",
-            "gunList": ['bcombi','chaincolt','pist','paraccwp-6'],
+            "gunList": ['bcombi','chaincolt','pist1','paraccwp-6'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2811,14 +2811,14 @@
         {
             "id": "99",
             "titleId": "yj-zhanying6",
-            "gunList": ['hmg','chaincolt','pist','paraccwp-6'],
+            "gunList": ['hmg','chaincolt','pist1','paraccwp-6'],
             "swc": "1",
             "points": "2.5"
         },
         {
             "id": "100",
             "titleId": "yj-zhanying7",
-            "gunList": ['hmg','chaincolt','pist','paraccwp-6'],
+            "gunList": ['hmg','chaincolt','pist1','paraccwp-6'],
             "skillList": ['lt'],
             "swc": "1",
             "points": "2.5"
@@ -2826,49 +2826,49 @@
         {
             "id": "101",
             "titleId": "yj-adil1",
-            "gunList": ['bcombi','nanopulser1b','pist','mnccwp','paraccwp-6'],
+            "gunList": ['bcombi','nanopulser1b','pist1','mnccwp','paraccwp-6'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "102",
             "titleId": "yj-jingqo1",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','daccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','daccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "103",
             "titleId": "yj-leigong1",
-            "gunList": ['submachineap','pist','ccwp'],
+            "gunList": ['submachineap','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "104",
             "titleId": "yj-leigong2",
-            "gunList": ['markrifle','pist','ccwp'],
+            "gunList": ['markrifle','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "105",
             "titleId": "yj-tigersoldier1",
-            "gunList": ['combi','lflam','pist','ccwp'],
+            "gunList": ['combi','lflam','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "106",
             "titleId": "yj-tigersoldier2",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "107",
             "titleId": "yj-tigersoldier3",
-            "gunList": ['combi','lflam','pist','ccwp'],
+            "gunList": ['combi','lflam','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1",
             "points": "2.5"
@@ -2876,7 +2876,7 @@
         {
             "id": "108",
             "titleId": "yj-tigersoldier4",
-            "gunList": ['combi','lflam','pist','ccwp'],
+            "gunList": ['combi','lflam','pist1','ccwp'],
             "skillList": ['med'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -2885,7 +2885,7 @@
         {
             "id": "109",
             "titleId": "yj-tigersoldier5",
-            "gunList": ['combi','lflam','pist','ccwp'],
+            "gunList": ['combi','lflam','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2894,21 +2894,21 @@
         {
             "id": "110",
             "titleId": "yj-tigersoldier6",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "111",
             "titleId": "yj-yemao1",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','ccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "112",
             "titleId": "yj-yemao2",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','ccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','ccwp'],
             "skillList": ['eng'],
             "swc": "0",
             "points": "3"
@@ -2916,7 +2916,7 @@
         {
             "id": "113",
             "titleId": "yj-yemao3",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','ccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2925,21 +2925,21 @@
         {
             "id": "114",
             "titleId": "yj-yemao4",
-            "gunList": ['apspit','pist','ccwp'],
+            "gunList": ['apspit','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "115",
             "titleId": "yj-yemao5",
-            "gunList": ['miss','chaincolt','pist','ccwp'],
+            "gunList": ['miss','chaincolt','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "116",
             "titleId": "yj-hactao1",
-            "gunList": ['mrifle1','mrifle2','nanopulser','pist','daccwp'],
+            "gunList": ['mrifle1','nanopulser','pist1','daccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -2948,28 +2948,28 @@
         {
             "id": "117",
             "titleId": "yj-hactao2",
-            "gunList": ['hmg','nanopulser','pist','daccwp'],
+            "gunList": ['hmg','nanopulser','pist1','daccwp'],
             "swc": "1.5",
             "points": "6"
         },
         {
             "id": "118",
             "titleId": "yj-hactao3",
-            "gunList": ['miss','nanopulser','pist','daccwp'],
+            "gunList": ['miss','nanopulser','pist1','daccwp'],
             "swc": "1.5",
             "points": "6"
         },
         {
             "id": "119",
             "titleId": "yj-hsien1",
-            "gunList": ['markrifle','nanopulser','pist','apccwp'],
+            "gunList": ['markrifle','nanopulser','pist1','apccwp'],
             "swc": "0",
             "points": "4.5"
         },
         {
             "id": "120",
             "titleId": "yj-hsien2",
-            "gunList": ['markrifle','nanopulser','pist','apccwp'],
+            "gunList": ['markrifle','nanopulser','pist1','apccwp'],
             "skillList": ['lt'],
             "swc": "1",
             "points": "4.5"
@@ -2977,14 +2977,14 @@
         {
             "id": "121",
             "titleId": "yj-hsien3",
-            "gunList": ['hmg','nanopulser','pist','apccwp'],
+            "gunList": ['hmg','nanopulser','pist1','apccwp'],
             "swc": "1.5",
             "points": "5"
         },
         {
             "id": "122",
             "titleId": "yj-hsien4",
-            "gunList": ['hmg','nanopulser','pist','apccwp'],
+            "gunList": ['hmg','nanopulser','pist1','apccwp'],
             "skillList": ['lt'],
             "swc": "1.5",
             "points": "5"
@@ -2992,14 +2992,14 @@
         {
             "id": "123",
             "titleId": "yj-shangji1",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','ccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','ccwp'],
             "swc": "0",
             "points": "3.5"
         },
         {
             "id": "124",
             "titleId": "yj-shangji2",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','pist','ccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','pist1','ccwp'],
             "skillList": ['specops'],
             "swc": "0",
             "points": "3.5"
@@ -3007,7 +3007,7 @@
         {
             "id": "125",
             "titleId": "yj-shangji3",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','ccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','ccwp'],
             "skillList": ['med'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -3016,7 +3016,7 @@
         {
             "id": "126",
             "titleId": "yj-shangji4",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','ccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "3.5"
@@ -3024,7 +3024,7 @@
         {
             "id": "127",
             "titleId": "yj-shangji5",
-            "gunList": ['mrifle1','mrifle2','chaincolt','pist','ccwp'],
+            "gunList": ['mrifle1','chaincolt','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3033,14 +3033,14 @@
         {
             "id": "128",
             "titleId": "yj-shangji6",
-            "gunList": ['hmg','chaincolt','pist','ccwp'],
+            "gunList": ['hmg','chaincolt','pist1','ccwp'],
             "swc": "1.5",
             "points": "4"
         },
         {
             "id": "129",
             "titleId": "yj-shangji7",
-            "gunList": ['aphmg','chaincolt','pist','ccwp'],
+            "gunList": ['aphmg','chaincolt','pist1','ccwp'],
             "skillList": ['regen'],
             "swc": "1.5",
             "points": "4.5"
@@ -3048,28 +3048,28 @@
         {
             "id": "130",
             "titleId": "yj-yanhuo1",
-            "gunList": ['miss1b','pist','ccwp'],
+            "gunList": ['miss1b','pist1','ccwp'],
             "swc": "1.5",
             "points": "4"
         },
         {
             "id": "131",
             "titleId": "yj-yanhuo2",
-            "gunList": ['mhmg1','mhmg2','pist','ccwp'],
+            "gunList": ['mhmg1','pist1','ccwp'],
             "swc": "1.5",
             "points": "4.5"
         },
         {
             "id": "132",
             "titleId": "yj-yanhuo3",
-            "gunList": ['hyperrapid','pist','ccwp'],
+            "gunList": ['hyperrapid','pist1','ccwp'],
             "swc": "1.5",
             "points": "4.5"
         },
         {
             "id": "133",
             "titleId": "yj-yanhuo4",
-            "gunList": ['mhmg1','mhmg2','pist','ccwp'],
+            "gunList": ['mhmg1','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1.5",
             "points": "4.5"
@@ -3077,7 +3077,7 @@
         {
             "id": "134",
             "titleId": "yj-yanhuo5",
-            "gunList": ['hyperrapid','pist','ccwp'],
+            "gunList": ['hyperrapid','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1.5",
             "points": "4.5"
@@ -3085,35 +3085,35 @@
         {
             "id": "135",
             "titleId": "yj-zuyong1",
-            "gunList": ['bshot1','bshot2','pist1b','ccwp'],
+            "gunList": ['bshot1','pist1b1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "136",
             "titleId": "yj-zuyong2",
-            "gunList": ['combi','pist1b','ccwp'],
+            "gunList": ['combi','pist1b1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "137",
             "titleId": "yj-zuyong3",
-            "gunList": ['mrifle1','mrifle2','pist1b','ccwp'],
+            "gunList": ['mrifle1','pist1b1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "138",
             "titleId": "yj-zuyong4",
-            "gunList": ['combi','pist1b','ccwp'],
+            "gunList": ['combi','pist1b1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "139",
             "titleId": "yj-zuyong5",
-            "gunList": ['combi','pist1b','ccwp'],
+            "gunList": ['combi','pist1b1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "2.5"
@@ -3121,21 +3121,21 @@
         {
             "id": "140",
             "titleId": "yj-zuyong6",
-            "gunList": ['hmg','pist1b','ccwp'],
+            "gunList": ['hmg','pist1b1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "141",
             "titleId": "yj-zuyong7",
-            "gunList": ['miss','lshot1','lshot2','pist1b','ccwp'],
+            "gunList": ['miss','lshot1','pist1b1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "142",
             "titleId": "yj-zuyong8",
-            "gunList": ['hmg','pist1b','ccwp'],
+            "gunList": ['hmg','pist1b1','ccwp'],
             "skillList": ['lt','regen'],
             "swc": "1",
             "points": "3.5"
@@ -3143,7 +3143,7 @@
         {
             "id": "143",
             "titleId": "yj-zuyong9",
-            "gunList": ['hmg','pist1b','ccwp'],
+            "gunList": ['hmg','pist1b1','ccwp'],
             "skillList": ['regen'],
             "swc": "1.5",
             "points": "3.5"
@@ -3186,21 +3186,21 @@
         {
             "id": "149",
             "titleId": "yj-ninjas1",
-            "gunList": ['submachineap','pist','apccwp'],
+            "gunList": ['submachineap','pist1','apccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "150",
             "titleId": "yj-ninjas2",
-            "gunList": ['submachineap','pist','daccwp'],
+            "gunList": ['submachineap','pist1','daccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "151",
             "titleId": "yj-ninjas3",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3209,14 +3209,14 @@
         {
             "id": "152",
             "titleId": "cb-agent-dukash1",
-            "gunList": ['mrifle1','mrifle2','nanopulser','hpist1','hpist2','ccwp'],
+            "gunList": ['mrifle1','nanopulser','hpist1','ccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "153",
             "titleId": "cb-agent-dukash2",
-            "gunList": ['mrifle1','mrifle2','nanopulser','hpist1','hpist2','ccwp'],
+            "gunList": ['mrifle1','nanopulser','hpist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "3"
@@ -3224,14 +3224,14 @@
         {
             "id": "154",
             "titleId": "cb-sheskiin1",
-            "gunList": ['mrifle1','mrifle2','pist','daccwp'],
+            "gunList": ['mrifle1','pist1','daccwp'],
             "swc": "0",
             "points": "5"
         },
         {
             "id": "155",
             "titleId": "cb-sheskiin2",
-            "gunList": ['mrifle1','mrifle2','pist','daccwp'],
+            "gunList": ['mrifle1','pist1','daccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "5"
@@ -3239,14 +3239,14 @@
         {
             "id": "156",
             "titleId": "cb-sheskiin3",
-            "gunList": ['redfury','pist','daccwp'],
+            "gunList": ['redfury','pist1','daccwp'],
             "swc": "1",
             "points": "5.5"
         },
         {
             "id": "157",
             "titleId": "cb-sheskiin4",
-            "gunList": ['redfury','pist','daccwp'],
+            "gunList": ['redfury','pist1','daccwp'],
             "skillList": ['lt'],
             "swc": "1",
             "points": "5.5"
@@ -3254,21 +3254,21 @@
         {
             "id": "158",
             "titleId": "cb-jayth1",
-            "gunList": ['chainrifle1b','pist','daccwp'],
+            "gunList": ['chainrifle1b','pist1','daccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "159",
             "titleId": "cb-jayth2",
-            "gunList": ['submachineap','chainrifle','pist','daccwp'],
+            "gunList": ['submachineap','chainrifle','pist1','daccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "160",
             "titleId": "cb-jayth3",
-            "gunList": ['bshot1','bshot2','pist','daccwp'],
+            "gunList": ['bshot1','pist1','daccwp'],
             "skillList": ['specops'],
             "swc": "0",
             "points": "3"
@@ -3276,35 +3276,35 @@
         {
             "id": "161",
             "titleId": "cb-jayth4",
-            "gunList": ['redfury','pist','daccwp'],
+            "gunList": ['redfury','pist1','daccwp'],
             "swc": "1",
             "points": "3"
         },
         {
             "id": "162",
             "titleId": "cb-med-tech1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "163",
             "titleId": "cb-sargosh1",
-            "gunList": ['mrifle1','mrifle2','lflam','pist','daccwp'],
+            "gunList": ['mrifle1','lflam','pist1','daccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "164",
             "titleId": "cb-noctifer1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "165",
             "titleId": "cb-noctifer2",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1",
             "points": "2"
@@ -3312,7 +3312,7 @@
         {
             "id": "166",
             "titleId": "cb-noctifer3",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3321,28 +3321,28 @@
         {
             "id": "167",
             "titleId": "cb-noctifer4",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "swc": "1.5",
             "points": "2.5"
         },
         {
             "id": "168",
             "titleId": "cb-noctifer5",
-            "gunList": ['miss','pist','ccwp'],
+            "gunList": ['miss','pist1','ccwp'],
             "swc": "1.5",
             "points": "2.5"
         },
         {
             "id": "169",
             "titleId": "cb-nox1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "170",
             "titleId": "cb-nox2",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "1"
@@ -3350,7 +3350,7 @@
         {
             "id": "171",
             "titleId": "cb-nox3",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['med'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -3359,7 +3359,7 @@
         {
             "id": "172",
             "titleId": "cb-nox4",
-            "gunList": ['submachineap','pist','ccwp'],
+            "gunList": ['submachineap','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3368,7 +3368,7 @@
         {
             "id": "173",
             "titleId": "cb-nox5",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3377,28 +3377,28 @@
         {
             "id": "174",
             "titleId": "cb-nox6",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1",
             "points": "2"
         },
         {
             "id": "175",
             "titleId": "cb-nox7",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "2"
         },
         {
             "id": "176",
             "titleId": "cb-caliban1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "177",
             "titleId": "cb-caliban2",
-            "gunList": ['submachineap','pist','ccwp'],
+            "gunList": ['submachineap','pist1','ccwp'],
             "skillList": ['eng'],
             "swc": "0",
             "points": "3"
@@ -3406,14 +3406,14 @@
         {
             "id": "178",
             "titleId": "cb-caliban3",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "swc": "1.5",
             "points": "3.5"
         },
         {
             "id": "179",
             "titleId": "cb-caliban4",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "equipmentList": ['mvisor1'],
             "swc": "1.5",
             "points": "3.5"
@@ -3421,14 +3421,14 @@
         {
             "id": "180",
             "titleId": "cb-mentor1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "1.5"
         },
         {
             "id": "181",
             "titleId": "cb-mentor2",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "1.5"
@@ -3436,14 +3436,14 @@
         {
             "id": "182",
             "titleId": "cb-mentor3",
-            "gunList": ['markrifle','pist','ccwp'],
+            "gunList": ['markrifle','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "183",
             "titleId": "cb-mentor4",
-            "gunList": ['markrifle','pist','ccwp'],
+            "gunList": ['markrifle','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "2.5"
@@ -3451,7 +3451,7 @@
         {
             "id": "184",
             "titleId": "cb-mentor5",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3460,21 +3460,21 @@
         {
             "id": "185",
             "titleId": "cb-tensho1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "186",
             "titleId": "cb-nourkias1",
-            "gunList": ['bcombi','pist','daccwp'],
+            "gunList": ['bcombi','pist1','daccwp'],
             "swc": "0",
             "points": "3.5"
         },
         {
             "id": "187",
             "titleId": "cb-nourkias2",
-            "gunList": ['bcombi','pist','daccwp'],
+            "gunList": ['bcombi','pist1','daccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "3.5"
@@ -3482,7 +3482,7 @@
         {
             "id": "188",
             "titleId": "cb-nourkias3",
-            "gunList": ['bcombi','pist','daccwp'],
+            "gunList": ['bcombi','pist1','daccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3491,7 +3491,7 @@
         {
             "id": "189",
             "titleId": "cb-nourkias4",
-            "gunList": ['bcombi','pist','daccwp'],
+            "gunList": ['bcombi','pist1','daccwp'],
             "skillList": ['lt','hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3500,7 +3500,7 @@
         {
             "id": "190",
             "titleId": "cb-victor-messer1",
-            "gunList": ['bshot1','bshot2','nanopulser1b','pist','ccwp'],
+            "gunList": ['bshot1','nanopulser1b','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3509,7 +3509,7 @@
         {
             "id": "191",
             "titleId": "cb-victor-messer2",
-            "gunList": ['mrifle1','mrifle2','nanopulser1b','pist','ccwp'],
+            "gunList": ['mrifle1','nanopulser1b','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3518,7 +3518,7 @@
         {
             "id": "192",
             "titleId": "cb-ko-dali1",
-            "gunList": ['combi','nanopulser1b','hpist1','hpist2','ccwp'],
+            "gunList": ['combi','nanopulser1b','hpist1','ccwp'],
             "skillList": ['combatjump'],
             "swc": "0",
             "points": "3.5"
@@ -3526,7 +3526,7 @@
         {
             "id": "193",
             "titleId": "cb-ko-dali2",
-            "gunList": ['combi','nanopulser1b','hpist1','hpist2','ccwp'],
+            "gunList": ['combi','nanopulser1b','hpist1','ccwp'],
             "skillList": ['forwdep8','mimet3'],
             "swc": "0",
             "points": "3.5"
@@ -3534,21 +3534,21 @@
         {
             "id": "194",
             "titleId": "cb-gwailo1",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1.5",
             "points": "4"
         },
         {
             "id": "195",
             "titleId": "cb-gwailo2",
-            "gunList": ['apspit','pist','ccwp'],
+            "gunList": ['apspit','pist1','ccwp'],
             "swc": "1.5",
             "points": "4"
         },
         {
             "id": "196",
             "titleId": "cb-gwailo3",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1.5",
             "points": "4"
@@ -3599,21 +3599,21 @@
         {
             "id": "203",
             "titleId": "cb-malignos1",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "204",
             "titleId": "cb-malignos2",
-            "gunList": ['bshot1','bshot2','antm','pist','ccwp'],
+            "gunList": ['bshot1','antm','pist1','ccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "205",
             "titleId": "cb-malignos3",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3622,49 +3622,49 @@
         {
             "id": "206",
             "titleId": "cb-malignos4",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "4"
         },
         {
             "id": "207",
             "titleId": "cb-shrouded1",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "208",
             "titleId": "cb-shrouded2",
-            "gunList": ['bshot1','bshot2','antm','pist','ccwp'],
+            "gunList": ['bshot1','antm','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "209",
             "titleId": "cb-shrouded3",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "swc": "0.5",
             "points": "2.5"
         },
         {
             "id": "210",
             "titleId": "cb-shrouded4",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "211",
             "titleId": "o12-cassanova1",
-            "gunList": ['submachineap','nanopulser','pist','mnccwp'],
+            "gunList": ['submachineap','nanopulser','pist1','mnccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "212",
             "titleId": "o12-cyberghost1",
-            "gunList": ['combi','pist','paraccwp-3'],
+            "gunList": ['combi','pist1','paraccwp-3'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3673,14 +3673,14 @@
         {
             "id": "213",
             "titleId": "o12-cho1",
-            "gunList": ['combi','nanopulser','pist','ccwp'],
+            "gunList": ['combi','nanopulser','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "214",
             "titleId": "o12-cho2",
-            "gunList": ['combi','nanopulser','pist','ccwp'],
+            "gunList": ['combi','nanopulser','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "0",
             "points": "1"
@@ -3688,14 +3688,14 @@
         {
             "id": "215",
             "titleId": "o12-kappa1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "swc": "0",
             "points": "1"
         },
         {
             "id": "216",
             "titleId": "o12-kappa2",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['med'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -3704,7 +3704,7 @@
         {
             "id": "217",
             "titleId": "o12-kappa3",
-            "gunList": ['submachineap','pist','ccwp'],
+            "gunList": ['submachineap','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3713,7 +3713,7 @@
         {
             "id": "218",
             "titleId": "o12-kappa4",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1",
             "points": "1"
@@ -3721,42 +3721,42 @@
         {
             "id": "219",
             "titleId": "o12-kappa5",
-            "gunList": ['miss','pist','ccwp'],
+            "gunList": ['miss','pist1','ccwp'],
             "swc": "1.5",
             "points": "1.5"
         },
         {
             "id": "220",
             "titleId": "o12-kappa6",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1",
             "points": "2"
         },
         {
             "id": "221",
             "titleId": "o12-kappa7",
-            "gunList": ['msnipe1','msnipe2','pist','ccwp'],
+            "gunList": ['msnipe1','pist1','ccwp'],
             "swc": "1.5",
             "points": "2"
         },
         {
             "id": "222",
             "titleId": "o12-lynx1",
-            "gunList": ['markrifle','antm','pist','ccwp'],
+            "gunList": ['markrifle','antm','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "223",
             "titleId": "o12-lynx2",
-            "gunList": ['msnipe1','msnipe2','antm','pist','ccwp'],
+            "gunList": ['msnipe1','antm','pist1','ccwp'],
             "swc": "1.5",
             "points": "3"
         },
         {
             "id": "224",
             "titleId": "o12-psicop1",
-            "gunList": ['combi','nanopulser1b','hpist1','hpist2','ccwp'],
+            "gunList": ['combi','nanopulser1b','hpist1','ccwp'],
             "skillList": ['specops'],
             "swc": "0",
             "points": "1.5"
@@ -3764,7 +3764,7 @@
         {
             "id": "225",
             "titleId": "o12-psicop2",
-            "gunList": ['markrifle','nanopulser1b','hpist1','hpist2','ccwp'],
+            "gunList": ['markrifle','nanopulser1b','hpist1','ccwp'],
             "equipmentList": ['mvisor1'],
             "swc": "0",
             "points": "2"
@@ -3772,7 +3772,7 @@
         {
             "id": "226",
             "titleId": "o12-psicop3",
-            "gunList": ['combi','nanopulser1b','hpist1','hpist2','ccwp'],
+            "gunList": ['combi','nanopulser1b','hpist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3781,7 +3781,7 @@
         {
             "id": "227",
             "titleId": "o12-lamda1",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['eng'],
             "swc": "0",
             "points": "1.5"
@@ -3789,7 +3789,7 @@
         {
             "id": "228",
             "titleId": "o12-lamda2",
-            "gunList": ['combi','pist','ccwp'],
+            "gunList": ['combi','pist1','ccwp'],
             "skillList": ['med'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -3798,7 +3798,7 @@
         {
             "id": "229",
             "titleId": "o12-crusher1",
-            "gunList": ['submachineap','nanopulser','pist','ccwp'],
+            "gunList": ['submachineap','nanopulser','pist1','ccwp'],
             "skillList": ['forwdep8'],
             "swc": "0",
             "points": "2"
@@ -3806,7 +3806,7 @@
         {
             "id": "230",
             "titleId": "o12-crusher2",
-            "gunList": ['mrifle1','mrifle2','nanopulser','pist','ccwp'],
+            "gunList": ['mrifle1','nanopulser','pist1','ccwp'],
             "skillList": ['forwdep8'],
             "swc": "0",
             "points": "2.5"
@@ -3814,7 +3814,7 @@
         {
             "id": "231",
             "titleId": "o12-crusher3",
-            "gunList": ['bshot1','bshot2','nanopulser','pist','ccwp'],
+            "gunList": ['bshot1','nanopulser','pist1','ccwp'],
             "skillList": ['combatjump','parachut'],
             "swc": "0",
             "points": "3"
@@ -3822,77 +3822,77 @@
         {
             "id": "232",
             "titleId": "o12-curevo1",
-            "gunList": ['submachineap','pist','mnccwp'],
+            "gunList": ['submachineap','pist1','mnccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "233",
             "titleId": "o12-curevo2",
-            "gunList": ['bshot1','bshot2','pist','mnccwp'],
+            "gunList": ['bshot1','pist1','mnccwp'],
             "swc": "0",
             "points": "3.5"
         },
         {
             "id": "234",
             "titleId": "o12-delta1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "235",
             "titleId": "o12-delta2",
-            "gunList": ['combi','lightriot','pist','ccwp'],
+            "gunList": ['combi','lightriot','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "236",
             "titleId": "o12-delta3",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2.5"
         },
         {
             "id": "237",
             "titleId": "o12-delta4",
-            "gunList": ['combi','lightriot','pist','ccwp'],
+            "gunList": ['combi','lightriot','pist1','ccwp'],
             "swc": "0.5",
             "points": "2.5"
         },
         {
             "id": "238",
             "titleId": "o12-delta5",
-            "gunList": ['spit','pist','ccwp'],
+            "gunList": ['spit','pist1','ccwp'],
             "swc": "1.5",
             "points": "2.5"
         },
         {
             "id": "239",
             "titleId": "o12-delta6",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "240",
             "titleId": "o12-epsilon1",
-            "gunList": ['hmg','nanopulser','pist','ccwp'],
+            "gunList": ['hmg','nanopulser','pist1','ccwp'],
             "swc": "1.5",
             "points": "2.5"
         },
         {
             "id": "241",
             "titleId": "o12-epsilon2",
-            "gunList": ['msnipe1','msnipe2','nanopulser','pist','ccwp'],
+            "gunList": ['msnipe1','nanopulser','pist1','ccwp'],
             "swc": "1.5",
             "points": "2.5"
         },
         {
             "id": "242",
             "titleId": "o12-betatrooper1",
-            "gunList": ['submachineap','nanopulser1b','pist','ccwp'],
+            "gunList": ['submachineap','nanopulser1b','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -3901,7 +3901,7 @@
         {
             "id": "243",
             "titleId": "o12-betatrooper2",
-            "gunList": ['bshot1','bshot2','nanopulser1b','pist','ccwp'],
+            "gunList": ['bshot1','nanopulser1b','pist1','ccwp'],
             "skillList": ['doc'],
             "equipmentList": ['med'],
             "swc": "0",
@@ -3910,7 +3910,7 @@
         {
             "id": "244",
             "titleId": "o12-betatrooper3",
-            "gunList": ['mrifle1','mrifle2','nanopulser1b','pist','ccwp'],
+            "gunList": ['mrifle1','nanopulser1b','pist1','ccwp'],
             "skillList": ['specops'],
             "swc": "0",
             "points": "3.5"
@@ -3918,28 +3918,28 @@
         {
             "id": "245",
             "titleId": "o12-betatrooper4",
-            "gunList": ['spit','nanopulser1b','pist','ccwp'],
+            "gunList": ['spit','nanopulser1b','pist1','ccwp'],
             "swc": "1.5",
             "points": "4"
         },
         {
             "id": "246",
             "titleId": "o12-gamma1",
-            "gunList": ['hmg','hpist1','hpist2','ccwp'],
+            "gunList": ['hmg','hpist1','ccwp'],
             "swc": "1.5",
             "points": "5"
         },
         {
             "id": "247",
             "titleId": "o12-gamma2",
-            "gunList": ['feuerbach','hpist1','hpist2','ccwp'],
+            "gunList": ['feuerbach','hpist1','ccwp'],
             "swc": "1.5",
             "points": "5"
         },
         {
             "id": "248",
             "titleId": "o12-gamma3",
-            "gunList": ['hmg','hpist1','hpist2','ccwp'],
+            "gunList": ['hmg','hpist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1.5",
             "points": "5"
@@ -3947,7 +3947,7 @@
         {
             "id": "249",
             "titleId": "o12-gamma4",
-            "gunList": ['feuerbach','hpist1','hpist2','ccwp'],
+            "gunList": ['feuerbach','hpist1','ccwp'],
             "skillList": ['lt'],
             "swc": "1.5",
             "points": "5"
@@ -3955,28 +3955,28 @@
         {
             "id": "250",
             "titleId": "o12-omega1",
-            "gunList": ['mrifle1','mrifle2','heavyriot','pist','ccwp'],
+            "gunList": ['mrifle1','heavyriot','pist1','ccwp'],
             "swc": "0",
             "points": "4"
         },
         {
             "id": "251",
             "titleId": "o12-omega2",
-            "gunList": ['mrifle1','mrifle2','heavyriot','pist','ccwp'],
+            "gunList": ['mrifle1','heavyriot','pist1','ccwp'],
             "swc": "0",
             "points": "4"
         },
         {
             "id": "252",
             "titleId": "o12-omega3",
-            "gunList": ['mrifle1','mrifle2','heavyriot','pist','ccwp'],
+            "gunList": ['mrifle1','heavyriot','pist1','ccwp'],
             "swc": "0",
             "points": "4.5"
         },
         {
             "id": "253",
             "titleId": "o12-omega4",
-            "gunList": ['hmg','pist','ccwp'],
+            "gunList": ['hmg','pist1','ccwp'],
             "swc": "1.5",
             "points": "4.5"
         },
@@ -4020,28 +4020,28 @@
         {
             "id": "259",
             "titleId": "o12-gangbuster1",
-            "gunList": ['bshot1','bshot2','pist','ccwp'],
+            "gunList": ['bshot1','pist1','ccwp'],
             "swc": "0",
             "points": "2"
         },
         {
             "id": "260",
             "titleId": "o12-razor1",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "261",
             "titleId": "o12-razor2",
-            "gunList": ['bshot1','bshot2','antm','pist','ccwp'],
+            "gunList": ['bshot1','antm','pist1','ccwp'],
             "swc": "0",
             "points": "3"
         },
         {
             "id": "262",
             "titleId": "o12-razor3",
-            "gunList": ['bshot1','bshot2','antm','pist','ccwp'],
+            "gunList": ['bshot1','antm','pist1','ccwp'],
             "skillList": ['specops'],
             "swc": "0",
             "points": "3"
@@ -4049,7 +4049,7 @@
         {
             "id": "263",
             "titleId": "o12-razor4",
-            "gunList": ['combi','antm','pist','ccwp'],
+            "gunList": ['combi','antm','pist1','ccwp'],
             "skillList": ['hack'],
             "equipmentList": ['hack'],
             "swc": "0.5",
@@ -4058,7 +4058,7 @@
         {
             "id": "264",
             "titleId": "o12-hippolyta1",
-            "gunList": ['bcombi','nanopulser','pist','daccwp'],
+            "gunList": ['bcombi','nanopulser','pist1','daccwp'],
             "swc": "0",
             "points": "3"
         }
@@ -4087,24 +4087,104 @@
     ];
     export const WEAPON = [
         {
-            "id": "1",
-            "titleId": "combi",
-            "title": "CombiRifle",
-            "shortTitle": "CombiRifle",
+            "id": "11",
+            "titleId": "antm",
+            "title": "Antipersonel Mines",
+            "shortTitle": "Antipersonel Mines",
+            "type": "equip",
+            "attr_dam": "13",
+            "attr_b": "1",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "Concealed, Disposable(3), Direct Template (Small Teardrop), Deployable weapon"
+        },
+        {
+            "id": "21",
+            "titleId": "apccwp",
+            "title": "AP CC Weapon",
+            "shortTitle": "AP CC Weapon",
+            "type": "close",
+            "attr_dam": "PH",
+            "attr_b": "1",
+            "attr_ammo": "AP",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "CC"
+        },
+        {
+            "id": "34",
+            "titleId": "aphmg",
+            "title": "AP HMG",
+            "shortTitle": "AP HMG",
+            "type": "main",
+            "attr_dam": "15",
+            "attr_b": "4",
+            "attr_ammo": "AP",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-32\"",
+            "long_mod": "+3",
+            "max_range": "32-48\"",
+            "max_mod": "-3"
+        },
+        {
+            "id": "22",
+            "titleId": "apmrifle",
+            "title": "AP Marksman Rifle",
+            "shortTitle": "AP Marksman Rifle",
             "type": "main",
             "attr_dam": "13",
             "attr_b": "3",
-            "attr_ammo": "N",
+            "attr_ammo": "AP",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-24\"",
+            "medium_mod": "+3",
+            "long_range": "24-40\"",
+            "long_mod": "-3",
+            "max_range": "40-48\"",
+            "max_mod": "-6"
+        },
+        {
+            "id": "33",
+            "titleId": "apspit",
+            "title": "AP Spitfire",
+            "shortTitle": "AP Spitfire",
+            "type": "main",
+            "attr_dam": "14",
+            "attr_b": "4",
+            "attr_ammo": "AP",
             "attr_save": "ARM",
             "noRange": "false",
             "short_range": "0-8\"",
             "short_mod": "+3",
-            "medium_range": "8-16\"",
+            "medium_range": "8-24\"",
             "medium_mod": "+3",
-            "long_range": "16-32\"",
+            "long_range": "24-32\"",
             "long_mod": "-3",
             "max_range": "32-48\"",
             "max_mod": "-6"
+        },
+        {
+            "id": "9",
+            "titleId": "bshot1",
+            "title": "Boarding Shotgun (Blast Mode)",
+            "multiWeaponId": "bshot2",
+            "shortTitle": "Boarding Shotgun (Blast)",
+            "type": "main",
+            "attr_dam": "14",
+            "attr_b": "2",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "Direct Template (Small Teardrop) [Auto hit, Dodge PH-3]"
         },
         {
             "id": "10",
@@ -4123,19 +4203,6 @@
             "medium_mod": "0",
             "long_range": "16-24\"",
             "long_mod": "-3"
-        },
-        {
-            "id": "11",
-            "titleId": "antm",
-            "title": "Antipersonel Mines",
-            "shortTitle": "Antipersonel Mines",
-            "type": "equip",
-            "attr_dam": "13",
-            "attr_b": "1",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "Concealed, Disposable(3), Direct Template (Small Teardrop)"
         },
         {
             "id": "12",
@@ -4158,6 +4225,111 @@
             "max_mod": "-6"
         },
         {
+            "id": "4",
+            "titleId": "ccwp",
+            "title": "CC Weapon",
+            "shortTitle": "CC Weapon",
+            "type": "close",
+            "attr_dam": "PH",
+            "attr_b": "1",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "CC"
+        },
+        {
+            "id": "23",
+            "titleId": "chainrifle",
+            "title": "Chain Rifle",
+            "shortTitle": "Chain Rifle",
+            "type": "main",
+            "attr_dam": "13",
+            "attr_b": "1",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "Direct Template (Large Teardrop) [Auto hit, Dodge PH-3]"
+        },
+        {
+            "id": "41",
+            "titleId": "chainrifle1b",
+            "title": "Chain Rifle (+1B)",
+            "shortTitle": "Chain Rifle (+1B)",
+            "type": "main",
+            "attr_dam": "13",
+            "attr_b": "1",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "Direct Template (Large Teardrop) [Auto hit, Dodge PH-3]"
+        },
+        {
+            "id": "24",
+            "titleId": "chaincolt",
+            "title": "Chain-Colt",
+            "shortTitle": "Chain-Colt",
+            "type": "main",
+            "attr_dam": "13",
+            "attr_b": "1",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "Direct Template (Small Teardrop) [Auto hit, Dodge PH-3]"
+        },
+        {
+            "id": "1",
+            "titleId": "combi",
+            "title": "CombiRifle",
+            "shortTitle": "CombiRifle",
+            "type": "main",
+            "attr_dam": "13",
+            "attr_b": "3",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "+3",
+            "medium_range": "8-16\"",
+            "medium_mod": "+3",
+            "long_range": "16-32\"",
+            "long_mod": "-3",
+            "max_range": "32-48\"",
+            "max_mod": "-6"
+        },
+        {
+            "id": "18",
+            "titleId": "daccwp",
+            "title": "DA CC Weapon",
+            "shortTitle": "DA CC Weapon",
+            "type": "close",
+            "attr_dam": "PH",
+            "attr_b": "1",
+            "attr_ammo": "DA",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "CC"
+        },
+        {
+            "id": "43",
+            "titleId": "feuerbach",
+            "title": "Feuerbach ",
+            "shortTitle": "Feuerbach",
+            "type": "sub",
+            "attr_dam": "14",
+            "attr_b": "1",
+            "attr_ammo": "AP+DA",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-32\"",
+            "long_mod": "+3",
+            "max_range": "32-48\"",
+            "max_mod": "0"
+        },
+        {
             "id": "13",
             "titleId": "hflam",
             "title": "Heavy Flamethrower",
@@ -4168,7 +4340,93 @@
             "attr_ammo": "N",
             "attr_save": "ARM",
             "noRange": "true",
-            "trait": "Continous Damage, Direct Template (Large Teardrop)"
+            "trait": "Continous Damage, Direct Template (Large Teardrop) [Auto hit, Dodge PH-3]"
+        },
+        {
+            "id": "19",
+            "titleId": "hpist1",
+            "title": "Heavy Pistol (Burst Mode)",
+            "multiWeaponId": "hpist2",
+            "shortTitle": "Heavy Pistol (Burst)",
+            "type": "sub",
+            "attr_dam": "14",
+            "attr_b": "2",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "+3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-24\" ",
+            "long_mod": "-6"
+        },
+        {
+            "id": "25",
+            "titleId": "hpist2",
+            "title": "Heavy Pistol (CC Mode)",
+            "shortTitle": "Heavy Pistol (CC)",
+            "type": "close",
+            "attr_dam": "14",
+            "attr_b": "1",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "CC"
+        },
+        {
+            "id": "44",
+            "titleId": "heavyriot",
+            "title": "Heavy Riotstopper",
+            "shortTitle": "Heavy Riotstopper",
+            "type": "sub",
+            "attr_dam": "-",
+            "attr_b": "1",
+            "attr_ammo": "PARA",
+            "attr_save": "PH-6",
+            "noRange": "true",
+            "trait": "Non-lethal, Template (Large Teardrop) [Auto hit, Dodge PH-3]"
+        },
+        {
+            "id": "8",
+            "titleId": "hmg",
+            "title": "HMG",
+            "shortTitle": "HMG",
+            "type": "main",
+            "attr_dam": "15",
+            "attr_b": "4",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-32\"",
+            "long_mod": "+3",
+            "max_range": "32-48\"",
+            "max_mod": "-3"
+        },
+        {
+            "id": "36",
+            "titleId": "hyperrapid",
+            "title": "Hyper-Rapid Magnetic Cannon (Burst Mode)",
+            "shortTitle": "Hyper-Rapid Magnetic Cannon",
+            "type": "main",
+            "attr_dam": "15",
+            "attr_b": "5",
+            "attr_ammo": "AP",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-32\"",
+            "long_mod": "+3",
+            "max_range": "32-48\"",
+            "max_mod": "0",
+            "trait": "Light MULTI"
         },
         {
             "id": "14",
@@ -4181,28 +4439,188 @@
             "attr_ammo": "N",
             "attr_save": "ARM",
             "noRange": "true",
-            "trait": "Continous Damage, Direct Template (Small Teardrop)"
+            "trait": "Continous Damage, Direct Template (Small Teardrop) [Auto hit, Dodge PH-3]"
         },
         {
-            "id": "15",
-            "titleId": "mrifle1",
-            "title": "MULTI Rifle (Burst Mode)",
-            "shortTitle": "MULTI Rifle (Burst)",
+            "id": "42",
+            "titleId": "lightriot",
+            "title": "Light Riotstopper",
+            "shortTitle": "Light Riotstopper",
+            "type": "sub",
+            "attr_dam": "-",
+            "attr_b": "1",
+            "attr_ammo": "PARA",
+            "attr_save": "PH-6",
+            "noRange": "true",
+            "trait": "Non-lethal, Template (Small Teardrop) [Auto hit, Dodge PH-3]"
+        },
+        {
+            "id": "26",
+            "titleId": "lshot1",
+            "title": "Light Shotgun (Blast Mode)",
+            "multiWeaponId": "lshot2",
+            "shortTitle": "Light Shotgun (Blast)",
+            "type": "main",
+            "attr_dam": "13",
+            "attr_b": "2",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "Direct Template (Small Teardrop) [Auto hit, Dodge PH-3]"
+        },
+        {
+            "id": "27",
+            "titleId": "lshot2",
+            "title": "Light Shotgun (Hit Mode)",
+            "shortTitle": "Light Shotgun (Hit)",
+            "type": "main",
+            "attr_dam": "13",
+            "attr_b": "2",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "+6",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-24\" ",
+            "long_mod": "-3"
+        },
+        {
+            "id": "20",
+            "titleId": "markrifle",
+            "title": "Marksman Rifle",
+            "shortTitle": "Marksman Rifle",
             "type": "main",
             "attr_dam": "13",
             "attr_b": "3",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "+3",
+            "long_range": "24-40\"",
+            "long_mod": "-3",
+            "max_range": "40-48\"",
+            "max_mod": "-6"
+        },
+        {
+            "id": "5",
+            "titleId": "miss",
+            "title": "Missile Launcher (Blast Mode)",
+            "shortTitle": "Missile Launcher",
+            "type": "main",
+            "attr_dam": "14",
+            "attr_b": "1",
+            "attr_ammo": "AP+Exp",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-24\"",
+            "medium_mod": "0",
+            "long_range": "24-40\"",
+            "long_mod": "+3",
+            "max_range": "40-96\"",
+            "max_mod": "-3"
+        },
+        {
+            "id": "35",
+            "titleId": "miss1b",
+            "title": "Missile Launcher (Blast Mode) (+1B)",
+            "shortTitle": "Missile Launcher (+1B)",
+            "type": "main",
+            "attr_dam": "14",
+            "attr_b": "1+1",
+            "attr_ammo": "AP+Exp",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-24\"",
+            "medium_mod": "0",
+            "long_range": "24-40\"",
+            "long_mod": "+3",
+            "max_range": "40-96\"",
+            "max_mod": "-3"
+        },
+        {
+            "id": "28",
+            "titleId": "mk12",
+            "title": "Mk12",
+            "shortTitle": "Mk12",
+            "type": "main",
+            "attr_dam": "15",
+            "attr_b": "3",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "0",
+            "medium_range": "8-24\"",
+            "medium_mod": "+3",
+            "long_range": "24-32\"",
+            "long_mod": "-3",
+            "max_range": "32-48\"",
+            "max_mod": "-6"
+        },
+        {
+            "id": "17",
+            "titleId": "mnccwp",
+            "title": "Monofilament CC Weapon",
+            "shortTitle": "Monofilament CC Weapon",
+            "type": "close",
+            "attr_dam": "12",
+            "attr_b": "1",
+            "attr_ammo": "N",
+            "attr_save": "ARM",
+            "noRange": "true",
+            "trait": "CC"
+        },
+        {
+            "id": "37",
+            "titleId": "mhmg1",
+            "title": "MULTI HMG (Anti-materiel Mode)",
+            "multiWeaponId": "mhmg2",
+            "shortTitle": "MULTI HMG (Anti-materiel)",
+            "type": "main",
+            "attr_dam": "15",
+            "attr_b": "1",
+            "attr_ammo": "Exp",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-32\"",
+            "long_mod": "+3",
+            "max_range": "32-48\"",
+            "max_mod": "-3",
+            "trait": "Heavy MULTI"
+        },
+        {
+            "id": "38",
+            "titleId": "mhmg2",
+            "title": "MULTI HMG (Burst Mode)",
+            "shortTitle": "MULTI HMG (Burst)",
+            "type": "main",
+            "attr_dam": "15",
+            "attr_b": "4",
             "attr_ammo": "AP",
             "attr_save": "ARM",
             "noRange": "false",
             "short_range": "0-8\"",
-            "short_mod": "+3",
+            "short_mod": "-3",
             "medium_range": "8-16\"",
-            "medium_mod": "+3",
+            "medium_mod": "0",
             "long_range": "16-32\"",
-            "long_mod": "-3",
+            "long_mod": "+3",
             "max_range": "32-48\"",
-            "max_mod": "-6",
-            "trait": "Light MULTI"
+            "max_mod": "-3",
+            "trait": "Heavy MULTI"
         },
         {
             "id": "16",
@@ -4226,211 +4644,93 @@
             "trait": "Light MULTI"
         },
         {
-            "id": "17",
-            "titleId": "mnccwp",
-            "title": "Monofilament CC Weapon",
-            "shortTitle": "Monofilament CC Weapon",
-            "type": "close",
-            "attr_dam": "12",
-            "attr_b": "1",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "CC"
-        },
-        {
-            "id": "18",
-            "titleId": "daccwp",
-            "title": "DA CC Weapon",
-            "shortTitle": "DA CC Weapon",
-            "type": "close",
-            "attr_dam": "PH",
-            "attr_b": "1",
-            "attr_ammo": "DA",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "CC"
-        },
-        {
-            "id": "19",
-            "titleId": "hpist1",
-            "title": "Heavy Pistol (Burst Mode)",
-            "shortTitle": "Heavy Pistol (Burst)",
-            "type": "sub",
-            "attr_dam": "14",
-            "attr_b": "2",
-            "attr_ammo": "N",
+            "id": "15",
+            "titleId": "mrifle1",
+            "title": "MULTI Rifle (Burst Mode)",
+            "multiWeaponId": "mrifle2",
+            "shortTitle": "MULTI Rifle (Burst)",
+            "type": "main",
+            "attr_dam": "13",
+            "attr_b": "3",
+            "attr_ammo": "AP",
             "attr_save": "ARM",
             "noRange": "false",
             "short_range": "0-8\"",
             "short_mod": "+3",
             "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-24\" ",
-            "long_mod": "-6"
-        },
-        {
-            "id": "2",
-            "titleId": "spit",
-            "title": "Spitfire",
-            "shortTitle": "Spitfire",
-            "type": "main",
-            "attr_dam": "14",
-            "attr_b": "4",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "0",
-            "medium_range": "8-24\"",
             "medium_mod": "+3",
-            "long_range": "24-32\"",
+            "long_range": "16-32\"",
             "long_mod": "-3",
             "max_range": "32-48\"",
-            "max_mod": "-6"
+            "max_mod": "-6",
+            "trait": "Light MULTI"
         },
         {
-            "id": "20",
-            "titleId": "markrifle",
-            "title": "Marksman Rifle",
-            "shortTitle": "Marksman Rifle",
-            "type": "main",
-            "attr_dam": "13",
-            "attr_b": "3",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "+3",
-            "long_range": "24-40\"",
-            "long_mod": "-3",
-            "max_range": "40-48\"",
-            "max_mod": "-6"
-        },
-        {
-            "id": "21",
-            "titleId": "apccwp",
-            "title": "AP CC Weapon",
-            "shortTitle": "AP CC Weapon",
-            "type": "close",
-            "attr_dam": "PH",
-            "attr_b": "1",
-            "attr_ammo": "AP",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "CC"
-        },
-        {
-            "id": "22",
-            "titleId": "apmrifle",
-            "title": "AP Marksman Rifle",
-            "shortTitle": "AP Marksman Rifle",
-            "type": "main",
-            "attr_dam": "13",
-            "attr_b": "3",
-            "attr_ammo": "AP",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-24\"",
-            "medium_mod": "+3",
-            "long_range": "24-40\"",
-            "long_mod": "-3",
-            "max_range": "40-48\"",
-            "max_mod": "-6"
-        },
-        {
-            "id": "23",
-            "titleId": "chainrifle",
-            "title": "Chain Rifle",
-            "shortTitle": "Chain Rifle",
-            "type": "main",
-            "attr_dam": "13",
-            "attr_b": "1",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "Direct Template (Large Teardrop)"
-        },
-        {
-            "id": "24",
-            "titleId": "chaincolt",
-            "title": "Chain-Colt",
-            "shortTitle": "Chain-Colt",
-            "type": "main",
-            "attr_dam": "13",
-            "attr_b": "1",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "Direct Template (Small Teardrop)"
-        },
-        {
-            "id": "25",
-            "titleId": "hpist2",
-            "title": "Heavy Pistol (CC Mode)",
-            "shortTitle": "Heavy Pistol (CC)",
-            "type": "close",
-            "attr_dam": "14",
-            "attr_b": "1",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "CC"
-        },
-        {
-            "id": "26",
-            "titleId": "lshot1",
-            "title": "Light Shotgun (Blast Mode)",
-            "shortTitle": "Light Shotgun (Blast)",
-            "type": "main",
-            "attr_dam": "13",
-            "attr_b": "2",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "Direct Template (Small Teardrop)"
-        },
-        {
-            "id": "27",
-            "titleId": "lshot2",
-            "title": "Light Shotgun (Hit Mode)",
-            "shortTitle": "Light Shotgun (Hit)",
-            "type": "main",
-            "attr_dam": "13",
-            "attr_b": "2",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "+6",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-24\" ",
-            "long_mod": "-3"
-        },
-        {
-            "id": "28",
-            "titleId": "mk12",
-            "title": "Mk12",
-            "shortTitle": "Mk12",
+            "id": "7",
+            "titleId": "msnipe2",
+            "title": "MULTI Sniper (Anti-materiel Mode)",
+            "shortTitle": "MULTI Sniper (Anti Material)",
             "type": "main",
             "attr_dam": "15",
-            "attr_b": "3",
-            "attr_ammo": "N",
+            "attr_b": "1",
+            "attr_ammo": "DA",
             "attr_save": "ARM",
             "noRange": "false",
             "short_range": "0-8\"",
-            "short_mod": "0",
-            "medium_range": "8-24\"",
-            "medium_mod": "+3",
-            "long_range": "24-32\"",
-            "long_mod": "-3",
-            "max_range": "32-48\"",
-            "max_mod": "-6"
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-48\"",
+            "long_mod": "+3",
+            "max_range": "48-96\"",
+            "max_mod": "-3"
+        },
+        {
+            "id": "6",
+            "titleId": "msnipe1",
+            "title": "MULTI Sniper (Burst Mode)",
+            "multiWeaponId": "msnipe2",
+            "shortTitle": "MULTI Sniper (Burst)",
+            "type": "main",
+            "attr_dam": "15",
+            "attr_b": "2",
+            "attr_ammo": "AP",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-48\"",
+            "long_mod": "+3",
+            "max_range": "48-96\"",
+            "max_mod": "-3"
+        },
+        {
+            "id": "30",
+            "titleId": "nanopulser",
+            "title": "Nanopulser",
+            "shortTitle": "Nanopulser",
+            "type": "sub",
+            "attr_dam": "13",
+            "attr_b": "1",
+            "attr_ammo": "N",
+            "attr_save": "BTS",
+            "noRange": "true",
+            "trait": "Direct Template (Small Teardrop) [Auto hit, Dodge PH-3]"
+        },
+        {
+            "id": "31",
+            "titleId": "nanopulser1b",
+            "title": "Nanopulser (+1B)",
+            "shortTitle": "Nanopulser (+1B)",
+            "type": "sub",
+            "attr_dam": "13",
+            "attr_b": "1+1",
+            "attr_ammo": "N",
+            "attr_save": "BTS",
+            "noRange": "true",
+            "trait": "Direct Template (Small Teardrop) [Auto hit, Dodge PH-3]"
         },
         {
             "id": "29",
@@ -4473,8 +4773,9 @@
         },
         {
             "id": "3",
-            "titleId": "pist",
-            "title": "Pisto (CC Mode)",
+            "titleId": "pist1",
+            "title": "Pistol (CC Mode)",
+            "multiWeaponId": "pist2",
             "shortTitle": "Pistol CC",
             "type": "sub",
             "attr_dam": "11",
@@ -4485,284 +4786,28 @@
             "trait": "CC"
         },
         {
-            "id": "30",
-            "titleId": "nanopulser",
-            "title": "Nanopulser",
-            "shortTitle": "Nanopulser",
+            "id": "3",
+            "titleId": "pist2",
+            "title": "Pisto (Burst Mode)",
+            "shortTitle": "Pistol Burst",
             "type": "sub",
-            "attr_dam": "13",
+            "attr_dam": "11",
             "attr_b": "1",
             "attr_ammo": "N",
-            "attr_save": "BTS",
-            "noRange": "true",
-            "trait": "Direct Template (Small Teardrop)"
-        },
-        {
-            "id": "31",
-            "titleId": "nanopulser1b",
-            "title": "Nanopulser (+1B)",
-            "shortTitle": "Nanopulser (+1B)",
-            "type": "sub",
-            "attr_dam": "13",
-            "attr_b": "1+1",
-            "attr_ammo": "N",
-            "attr_save": "BTS",
-            "noRange": "true",
-            "trait": "Direct Template (Small Teardrop)"
-        },
-        {
-            "id": "32",
-            "titleId": "submachineap",
-            "title": "Submachine Gun (AP Mode)",
-            "shortTitle": "Submachine Gun (AP)",
-            "type": "sub",
-            "attr_dam": "13",
-            "attr_b": "3",
-            "attr_ammo": "AP",
-            "attr_save": "ARM",
+            "attr_save": "--",
             "noRange": "false",
             "short_range": "0-8\"",
-            "short_mod": "+3",
+            "short_mod": "-3",
             "medium_range": "8-16\"",
             "medium_mod": "0",
             "long_range": "16-24\" ",
-            "long_mod": "-3",
-            "max_range": "24-32\"",
-            "max_mod": "-6"
-        },
-        {
-            "id": "33",
-            "titleId": "apspit",
-            "title": "AP Spitfire",
-            "shortTitle": "AP Spitfire",
-            "type": "main",
-            "attr_dam": "14",
-            "attr_b": "4",
-            "attr_ammo": "AP",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "+3",
-            "medium_range": "8-24\"",
-            "medium_mod": "+3",
-            "long_range": "24-32\"",
-            "long_mod": "-3",
-            "max_range": "32-48\"",
-            "max_mod": "-6"
-        },
-        {
-            "id": "34",
-            "titleId": "aphmg",
-            "title": "AP HMG",
-            "shortTitle": "AP HMG",
-            "type": "main",
-            "attr_dam": "15",
-            "attr_b": "4",
-            "attr_ammo": "AP",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-32\"",
-            "long_mod": "+3",
-            "max_range": "32-48\"",
-            "max_mod": "-3"
-        },
-        {
-            "id": "35",
-            "titleId": "miss1b",
-            "title": "Missile Launcher (Blast Mode) (+1B)",
-            "shortTitle": "Missile Launcher (+1B)",
-            "type": "main",
-            "attr_dam": "14",
-            "attr_b": "1+1",
-            "attr_ammo": "AP+Exp",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-24\"",
-            "medium_mod": "0",
-            "long_range": "24-40\"",
-            "long_mod": "+3",
-            "max_range": "40-96\"",
-            "max_mod": "-3"
-        },
-        {
-            "id": "4",
-            "titleId": "ccwp",
-            "title": "CC Weapon",
-            "shortTitle": "CC Weapon",
-            "type": "close",
-            "attr_dam": "PH",
-            "attr_b": "1",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "CC"
-        },
-        {
-            "id": "5",
-            "titleId": "miss",
-            "title": "Missile Launcher (Blast Mode)",
-            "shortTitle": "Missile Launcher",
-            "type": "main",
-            "attr_dam": "14",
-            "attr_b": "1",
-            "attr_ammo": "AP+Exp",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-24\"",
-            "medium_mod": "0",
-            "long_range": "24-40\"",
-            "long_mod": "+3",
-            "max_range": "40-96\"",
-            "max_mod": "-3"
-        },
-        {
-            "id": "6",
-            "titleId": "msnipe1",
-            "title": "MULTI Sniper (Burst Mode)",
-            "shortTitle": "MULTI Sniper (Burst)",
-            "type": "main",
-            "attr_dam": "15",
-            "attr_b": "2",
-            "attr_ammo": "AP",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-48\"",
-            "long_mod": "+3",
-            "max_range": "48-96\"",
-            "max_mod": "-3"
-        },
-        {
-            "id": "7",
-            "titleId": "msnipe2",
-            "title": "MULTI Sniper (Anti-materiel Mode)",
-            "shortTitle": "MULTI Sniper (Anti Material)",
-            "type": "main",
-            "attr_dam": "15",
-            "attr_b": "1",
-            "attr_ammo": "DA",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-48\"",
-            "long_mod": "+3",
-            "max_range": "48-96\"",
-            "max_mod": "-3"
-        },
-        {
-            "id": "8",
-            "titleId": "hmg",
-            "title": "HMG",
-            "shortTitle": "HMG",
-            "type": "main",
-            "attr_dam": "15",
-            "attr_b": "4",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-32\"",
-            "long_mod": "+3",
-            "max_range": "32-48\"",
-            "max_mod": "-3"
-        },
-        {
-            "id": "9",
-            "titleId": "bshot1",
-            "title": "Boarding Shotgun (Blast Mode)",
-            "shortTitle": "Boarding Shotgun (Blast)",
-            "type": "main",
-            "attr_dam": "14",
-            "attr_b": "2",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "Direct Template (Small Teardrop)"
-        },
-        {
-            "id": "36",
-            "titleId": "hyperrapid",
-            "title": "Hyper-Rapid Magnetic Cannon (Burst Mode)",
-            "shortTitle": "Hyper-Rapid Magnetic Cannon",
-            "type": "main",
-            "attr_dam": "15",
-            "attr_b": "5",
-            "attr_ammo": "AP",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-32\"",
-            "long_mod": "+3",
-            "max_range": "32-48\"",
-            "max_mod": "0",
-            "trait": "Light MULTI"
-        },
-        {
-            "id": "37",
-            "titleId": "mhmg1",
-            "title": "MULTI HMG (Anti-materiel Mode)",
-            "shortTitle": "MULTI HMG (Anti-materiel)",
-            "type": "main",
-            "attr_dam": "15",
-            "attr_b": "1",
-            "attr_ammo": "Exp",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-32\"",
-            "long_mod": "+3",
-            "max_range": "32-48\"",
-            "max_mod": "-3",
-            "trait": "Heavy MULTI"
-        },
-        {
-            "id": "38",
-            "titleId": "mhmg2",
-            "title": "MULTI HMG (Burst Mode)",
-            "shortTitle": "MULTI HMG (Burst)",
-            "type": "main",
-            "attr_dam": "15",
-            "attr_b": "4",
-            "attr_ammo": "AP",
-            "attr_save": "ARM",
-            "noRange": "false",
-            "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-32\"",
-            "long_mod": "+3",
-            "max_range": "32-48\"",
-            "max_mod": "-3",
-            "trait": "Heavy MULTI"
+            "long_mod": "-6"
         },
         {
             "id": "39",
-            "titleId": "pist1b",
-            "title": "Pisto (CC Mode) (+1B)",
+            "titleId": "pist1b1",
+            "title": "Pistol (CC Mode) (+1B)",
+            "multiWeaponId": "pist1b2",
             "shortTitle": "Pistol CC (+1B)",
             "type": "sub",
             "attr_dam": "11",
@@ -4771,6 +4816,24 @@
             "attr_save": "--",
             "noRange": "true",
             "trait": "CC"
+        },
+        {
+            "id": "39",
+            "titleId": "pist1b2",
+            "title": "Pisto (Burst Mode) (+1B)",
+            "shortTitle": "Pistol Burst (+1B)",
+            "type": "sub",
+            "attr_dam": "11",
+            "attr_b": "1+1",
+            "attr_ammo": "N",
+            "attr_save": "--",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "-3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-24\" ",
+            "long_mod": "-6"
         },
         {
             "id": "40",
@@ -4793,64 +4856,46 @@
             "max_mod": "-6"
         },
         {
-            "id": "41",
-            "titleId": "chainrifle1b",
-            "title": "Chain Rifle (+1B)",
-            "shortTitle": "Chain Rifle (+1B)",
+            "id": "2",
+            "titleId": "spit",
+            "title": "Spitfire",
+            "shortTitle": "Spitfire",
             "type": "main",
-            "attr_dam": "13",
-            "attr_b": "1",
-            "attr_ammo": "N",
-            "attr_save": "ARM",
-            "noRange": "true",
-            "trait": "Direct Template (Large Teardrop)"
-        },
-        {
-            "id": "42",
-            "titleId": "lightriot",
-            "title": "Light Riotstopper",
-            "shortTitle": "Light Riotstopper",
-            "type": "sub",
-            "attr_dam": "-",
-            "attr_b": "1",
-            "attr_ammo": "PARA",
-            "attr_save": "PH-6",
-            "noRange": "true",
-            "trait": "Non-lethal, Template (Small Teardrop)"
-        },
-        {
-            "id": "43",
-            "titleId": "feuerbach",
-            "title": "Feuerbach ",
-            "shortTitle": "Feuerbach",
-            "type": "sub",
             "attr_dam": "14",
-            "attr_b": "1",
-            "attr_ammo": "AP+DA",
+            "attr_b": "4",
+            "attr_ammo": "N",
             "attr_save": "ARM",
             "noRange": "false",
             "short_range": "0-8\"",
-            "short_mod": "-3",
-            "medium_range": "8-16\"",
-            "medium_mod": "0",
-            "long_range": "16-32\"",
-            "long_mod": "+3",
+            "short_mod": "0",
+            "medium_range": "8-24\"",
+            "medium_mod": "+3",
+            "long_range": "24-32\"",
+            "long_mod": "-3",
             "max_range": "32-48\"",
-            "max_mod": "0"
+            "max_mod": "-6"
         },
         {
-            "id": "44",
-            "titleId": "heavyriot",
-            "title": "Heavy Riotstopper",
-            "shortTitle": "Heavy Riotstopper",
+            "id": "32",
+            "titleId": "submachineap",
+            "title": "Submachine Gun (AP Mode)",
+            "shortTitle": "Submachine Gun (AP)",
             "type": "sub",
-            "attr_dam": "-",
-            "attr_b": "1",
-            "attr_ammo": "PARA",
-            "attr_save": "PH-6",
-            "noRange": "true",
-            "trait": "Non-lethal, Template (Large Teardrop)"
+            "attr_dam": "13",
+            "attr_b": "3",
+            "attr_ammo": "AP",
+            "attr_save": "ARM",
+            "noRange": "false",
+            "short_range": "0-8\"",
+            "short_mod": "+3",
+            "medium_range": "8-16\"",
+            "medium_mod": "0",
+            "long_range": "16-24\" ",
+            "long_mod": "-3",
+            "max_range": "24-32\"",
+            "max_mod": "-6"
         }
+    
     ];
     export const SKILL = [
         {

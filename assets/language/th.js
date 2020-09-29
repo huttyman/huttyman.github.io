@@ -8,6 +8,7 @@ export const TH_lang = {
         "Activity page/Change log": "Activity page/Change log",
         "Explain Unit Stat": "อธิบาย Unit profile/Weapon/Ammo",
         "Action tutorial" : "อธบาย Action เบื้องต้น",
+        "Download app to your mobile": "ดาวน์โหลด App ลงเครื่องมือถือ",
         teach_order_screen: {
             " = Choose both action in any order": " = ทำได้ 2 Action เลือกอันไหนก่อนก็ได้",
             "Move/Idle/Discovery": "เดิน/นิ่ง/\nค้นหา",

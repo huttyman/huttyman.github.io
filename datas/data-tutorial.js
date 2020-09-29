@@ -118,5 +118,29 @@ export const TUTORIAL = [
             },
         ]
     },
+    {
+        "id": "download",
+        "title": "Download app to your mobile",
+        "detail": [
+            {
+                "descTH": "กดที่ปุ่มตั้งค่าที่มุมขวาบนของโปรแกรม Chrome หรือ Safari (ปุ่ม3จุดแนวตั้ง)",
+                "desc": "press on option button(3 vertical dot right top of chrome or safari)",
+                "image": "download1.png",
+                "imageSize": {"width":350,"height":670}
+            },
+            {
+                "descTH": "เลือก 'Add to home screen' หรือ 'เพิ่มที่หน้าจอหลัก' ",
+                "desc": "choose 'Add to home screen' from the menu",
+                "image": "download2.png",
+                "imageSize": {"width":350,"height":670}
+            },
+            {
+                "descTH": "Iconโปรแกรมจะขึ้นมาบนจอมือถือ เรียบร้อย!!",
+                "desc": "The Icon will show in your mobile app. DONE!",
+                "image": "download3.png",
+                "imageSize": {"width":350,"height":670}
+            },
+        ]
+    },
 
 ];

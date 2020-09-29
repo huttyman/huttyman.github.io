@@ -53,7 +53,7 @@ const AllArmyTabNavigator = (props) => {
             <Stack.Screen
                 name="Army"
                 component={ArmyScreen}
-                options={{ title: "Army selection [CODE ONE] v2.9b" }}
+                options={{ title: "Army selection [CODE ONE] v2.9c" }}
                 initialParams={{ armyId: 'pano' }}
             />
             <Stack.Screen
