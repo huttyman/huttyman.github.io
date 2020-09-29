@@ -53,7 +53,7 @@ const AllArmyTabNavigator = (props) => {
             <Stack.Screen
                 name="Army"
                 component={ArmyScreen}
-                options={{ title: "Army selection [CODE ONE] v2.8c" }}
+                options={{ title: "Army selection [CODE ONE] v2.9b" }}
                 initialParams={{ armyId: 'pano' }}
             />
             <Stack.Screen
@@ -181,8 +181,8 @@ export default function AllCartTabNavigator() {
 
 
     return (
-        <NavigationContainer  linking={linking} fallback={<Text>Loading...</Text>} >
-            <Tab.Navigator tabBarPosition="bottom"
+        <NavigationContainer   linking={linking} fallback={<Text>Loading...</Text>} >
+            <Tab.Navigator tabBarPosition="bottom" 
                 tabBarOptions={{
                     showIcon: true,
 

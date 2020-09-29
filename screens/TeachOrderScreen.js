@@ -49,6 +49,7 @@ const TeachOrderScreen = props => {
 
 
                     </TouchableOpacity>
+                    <View style={{justifyContent:"center"}}><Text style={{fontWeight:"bold",fontSize:22}}>+</Text></View>
                     <TouchableOpacity onPress={() => { setToggleSecondCard(!toggleSecondCard) }}>
                         <View style={styles.card}>
                             <View style={[styles.bottomTopBox, { backgroundColor: Colors.shortMovement }]}>
@@ -136,6 +137,7 @@ const styles = StyleSheet.create({
         width: '100%',
         padding: "auto",
         textAlign: "center",
+        fontSize: 16
     },
     middleBox: {
         backgroundColor: 'white',

@@ -30,7 +30,7 @@ const SummaryOrderScreen = props => {
                     <View style={styles.bodyRow}>
                         <Text style={styles.bodyText}>
                             <TouchableOpacity onPress={() => {
-                                props.navigation.navigate({ routeName: 'MoveTutorial', params: { titleId: 'move' } });
+                                props.navigation.navigate('MoveTutorial', { titleId: 'move' } );
                             }}>
                                 <Text>MOVE</Text>
                             </TouchableOpacity>
@@ -106,7 +106,12 @@ const SummaryOrderScreen = props => {
                 {/*ARO*/}
                 <View style={styles.topicContainer}>
                     <View style={[styles.mainHeader, { backgroundColor: Colors.aro }]}>
+                        
+                    <TouchableOpacity onPress={() => {
+                                props.navigation.navigate('MoveTutorial', { titleId: 'aro' } );
+                            }}>
                         <Text style={styles.headerText}>AROS</Text>
+                        </TouchableOpacity>
                     </View>
                     <View style={[styles.topicHeader, { backgroundColor: Colors.aro }]}>
                         <Text style={styles.headerText}>NAME</Text>
@@ -173,7 +178,7 @@ const SummaryOrderScreen = props => {
                     <View style={styles.bodyRow}>
                         <Text style={styles.bodyText}>
                             <TouchableOpacity onPress={() => {
-                                props.navigation.navigate({ routeName: 'MoveTutorial', params: { titleId: 'jump' } });
+                                props.navigation.navigate('MoveTutorial',{ titleId: 'jump' } );
                             }}>
                                 <Text>JUMP</Text>
                             </TouchableOpacity>

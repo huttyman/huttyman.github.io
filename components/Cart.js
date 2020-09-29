@@ -12,7 +12,7 @@ const HackerCard = props => {
                 <View style={{ width: '100%' }}>
                     <View key={Math.random()} style={styles.cardContainer}>
                         <View style={styles.troopTitle}>
-                            <Text style={styles.troopTitleText}>Carbonite</Text>
+                            <Text style={styles.troopTitleText}>Hacking Program: Carbonite</Text>
                         </View>
 
                         <View style={styles.detailContainer}>
@@ -37,7 +37,7 @@ const HackerCard = props => {
                     </View>
                     <View key={Math.random()} style={styles.cardContainer}>
                         <View style={styles.troopTitle}>
-                            <Text style={styles.troopTitleText}>Spotlight</Text>
+                            <Text style={styles.troopTitleText}>Hacking Program: Spotlight</Text>
                         </View>
 
                         <View style={styles.detailContainer}>
@@ -81,7 +81,7 @@ const DiscoverCard = props => {
                     <Text style={styles.troopTitleText}>Discover</Text>
                 </View>
             </View>
-            <View style={[styles.detailContainer, { paddingBottom: 10,paddingTop:5 }]}>
+            <View style={[styles.detailContainer, { paddingBottom: 10, paddingTop: 5 }]}>
                 <View style={styles.rowContainer}>
                     <View style={styles.rowWidth}><Text>Short</Text></View>
                     <View style={styles.rowWidth}><Text>Medium</Text></View>
@@ -142,8 +142,12 @@ const MedCard = props => {
 
 const weaponCard = weaponId => {
     const weaponItem = WEAPON.filter(item => item.titleId == weaponId)[0];
-
+    
     let rangDetail = <View></View>;
+    let secondWeapon;
+    if(weaponItem.multiWeaponId){
+        secondWeapon = weaponCard(weaponItem.multiWeaponId);
+    }
 
     if (weaponItem.noRange === "false") {
         rangDetail =
@@ -173,28 +177,31 @@ const weaponCard = weaponId => {
     }
 
     return (
-        <View key={Math.random()} style={styles.cardContainer}>
-            <View style={styles.troopTitle}>
-                <Text style={styles.troopTitleText}>{weaponItem.title}</Text>
-            </View>
+        <View style={{ width: '100%' }}>
+            <View key={Math.random()} style={styles.cardContainer}>
+                <View style={styles.troopTitle}>
+                    <Text style={styles.troopTitleText}>{weaponItem.title}</Text>
+                </View>
 
-            <View style={styles.detailContainer}>
-                <View style={styles.rowContainer}>
-                    <View style={styles.rowWidth}><Text>Dam</Text></View>
-                    <View style={styles.rowWidth}><Text>B</Text></View>
-                    <View style={styles.rowWidth}><Text>Ammo</Text></View>
-                    <View style={styles.rowWidth}><Text>Save</Text></View>
+                <View style={styles.detailContainer}>
+                    <View style={styles.rowContainer}>
+                        <View style={styles.rowWidth}><Text>Dam</Text></View>
+                        <View style={styles.rowWidth}><Text>B</Text></View>
+                        <View style={styles.rowWidth}><Text>Ammo</Text></View>
+                        <View style={styles.rowWidth}><Text>Save</Text></View>
+                    </View>
+                    <View style={styles.underline}></View>
+                    <View style={styles.rowContainer}>
+                        <View style={styles.rowWidth}><Text style={styles.rowBodyText}>{weaponItem.attr_dam}</Text></View>
+                        <View style={styles.rowWidth}><Text style={styles.rowBodyText}>{weaponItem.attr_b}</Text></View>
+                        <View style={styles.rowWidth}><Text style={styles.rowBodyText}>{weaponItem.attr_ammo}</Text></View>
+                        <View style={styles.rowWidth}><Text style={styles.rowBodyText}>{weaponItem.attr_save}</Text></View>
+                    </View>
+                    {rangDetail}
+                    {traitDetail}
                 </View>
-                <View style={styles.underline}></View>
-                <View style={styles.rowContainer}>
-                    <View style={styles.rowWidth}><Text style={styles.rowBodyText}>{weaponItem.attr_dam}</Text></View>
-                    <View style={styles.rowWidth}><Text style={styles.rowBodyText}>{weaponItem.attr_b}</Text></View>
-                    <View style={styles.rowWidth}><Text style={styles.rowBodyText}>{weaponItem.attr_ammo}</Text></View>
-                    <View style={styles.rowWidth}><Text style={styles.rowBodyText}>{weaponItem.attr_save}</Text></View>
-                </View>
-                {rangDetail}
-                {traitDetail}
             </View>
+            {secondWeapon}
         </View>
     );
 };
@@ -233,7 +240,7 @@ const Cart = props => {
                 <View style={styles.detailContainer}>
                     <View style={styles.rowContainer}>
                         <View style={styles.rowWidth}>
-                                <Text>MOV</Text>
+                            <Text>MOV</Text>
                         </View>
                         <View style={styles.rowWidth}><Text>CC</Text></View>
                         <View style={styles.rowWidth}><Text>BS</Text></View>

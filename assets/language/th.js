@@ -9,7 +9,7 @@ export const TH_lang = {
         "Explain Unit Stat": "อธิบาย Unit profile/Weapon/Ammo",
         "Action tutorial" : "อธบาย Action เบื้องต้น",
         teach_order_screen: {
-            " = Choose both action in any order": " = ทำได้2อย่าง เลือกอันไหนก่อนก็ได้",
+            " = Choose both action in any order": " = ทำได้ 2 Action เลือกอันไหนก่อนก็ได้",
             "Move/Idle/Discovery": "เดิน/นิ่ง/\nค้นหา",
             "Attack/Hack/Heal/etc.": "โจมตี/Hack/\nรักษา/etc.",
             "Turn Order":"Turn Order",

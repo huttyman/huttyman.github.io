@@ -9,7 +9,7 @@ export const EN_lang =  {
         "Explain Unit Stat": "Explain Unit profile/Weapon/Ammo",
         "Action tutorial" : "Action tutorial",
         teach_order_screen: {
-            " = Choose both action in any order": " = Choose both action in any order",
+            " = Choose both action in any order": " = 2 Actions, Choose both action in any order",
             "Move/Idle/Discovery": "Move/Idle/\nDiscovery",
             "Attack/Hack/Heal/etc": "Attack/Hack/\nHeal/etc.",
             "Turn Order":"Turn Order",

@@ -21,7 +21,7 @@ import Color from '../templates/Colors'
 import ScoreTitle from '../components/ScoreTitle';
 import ClickModal from '../components/ClickModal';
 import { ScrollView } from 'react-native-gesture-handler';
-import { IMAGELOGO } from '../datas/image-log';
+// import { IMAGELOGO } from '../datas/image-log';
 //Dummy content to show
 //You can also use dynamic data by calling webservice
 
@@ -96,7 +96,7 @@ export default class CollapseMainExample extends Component {
         style={[styles.header, isActive ? styles.active : styles.inactive, { flexDirection: "row", backgroundColor: Color.mainBlack }]}
         transition="backgroundColor">
         <View style={{ zIndex: 1, backgroundColor: Color.mainBlack, borderRadius: 45, maxWidth: 80, minWidth: 80, flex: 1, borderWidth: 4, borderColor: Color.mainBlack, overflow: "hidden" }}>
-          <Image source={IMAGELOGO[section.titleId].uri} style={{ height: 70, width: 70 }} />
+          <Image source={require("../assets/logos/"+section.logo)} style={{ height: 70, width: 70 }} />
         </View>
         <View style={{ zIndex: 0, margin: 2, backgroundColor: Color.mainGrey, flex: 6, alignItems: "flex-start", marginLeft: -40, paddingLeft: 50, paddingVertical: 3, justifyContent: "center" }}>
           <Text style={styles.headerText}>{section.title}</Text>

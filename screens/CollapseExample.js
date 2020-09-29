@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
   TextInput,
   Clipboard,
-  Image
+  Image, FlatList
 } from 'react-native';
 import { Button } from 'react-native-elements';
 //import basic react native components
@@ -330,8 +330,8 @@ export default class CollapseExampleTestTemplate extends Component {
         <View style={{ backgroundColor: Color.mainGrey, paddingHorizontal: 15, height:35,justifyContent:"center" }}>
           <ScoreTitle />
         </View>
-        <ScrollView contentContainerStyle={{ paddingTop: 3 }}>
-
+        <ScrollView  contentContainerStyle={{ paddingTop: 5 }}>
+          <View><Text>Test3333</Text></View>
           <View style={styles.multipleToggle}>
             <Text style={styles.multipleToggle__title}>
               Multiple Expand Allowed?
@@ -350,8 +350,6 @@ export default class CollapseExampleTestTemplate extends Component {
               <TouchableOpacity
                 key={selector.title}
                 onPress={() => this.setSections([9])}
-              //on Press of any selector sending the selector value to
-              // setSections function which will expand the Accordion accordingly
               >
                 <View style={styles.selector}>
                   <Text
@@ -374,31 +372,16 @@ export default class CollapseExampleTestTemplate extends Component {
             <Text style={{ color: Color.mainWhite }}>import text</Text>
             <TextInput style={{ color: Color.mainWhite, borderBottomWidth: 1, borderColor: Color.mainWhite }} onChangeText={(text) => this.setState({ clibboardText: text })} />
           </View>
-          {/*Code for Selector ends here*/}
-
-          {/*Code for Accordion/Expandable List starts here*/}
           <Accordion
             activeSections={activeSections}
-            //for any default active section
             sections={global.unitList}
-            //title and content of accordion
             touchableComponent={TouchableOpacity}
-            //which type of touchable component you want
-            //It can be the following Touchables
-            //TouchableHighlight, TouchableNativeFeedback
-            //TouchableOpacity , TouchableWithoutFeedback
             expandMultiple={multipleSelect}
-            //Do you want to expand mutiple at a time or single at a time
             renderHeader={this.renderHeader}
-            //Header Component(View) to render
             renderContent={this.renderContent}
-            //Content Component(View) to render
             duration={400}
-            //Duration for Collapse and expand
             onChange={this.setSections}
-          //setting the state of active sections
           />
-          {/*Code for Accordion/Expandable List ends here*/}
         </ScrollView>
       </View>
     );
