@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/static/js/app.133706f2.chunk.js",
-    "app.js.map": "/static/js/app.133706f2.chunk.js.map",
+    "app.js": "/static/js/app.d21bdf77.chunk.js",
+    "app.js.map": "/static/js/app.d21bdf77.chunk.js.map",
     "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
     "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
-    "static/js/2.15867cee.chunk.js": "/static/js/2.15867cee.chunk.js",
-    "static/js/2.15867cee.chunk.js.map": "/static/js/2.15867cee.chunk.js.map",
+    "static/js/2.77bdab84.chunk.js": "/static/js/2.77bdab84.chunk.js",
+    "static/js/2.77bdab84.chunk.js.map": "/static/js/2.77bdab84.chunk.js.map",
     "fonts/AntDesign.ttf": "/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/./fonts/Feather.ttf",
@@ -24,7 +24,7 @@
     "index.html": "/index.html",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "static/js/2.15867cee.chunk.js.LICENSE.txt": "/static/js/2.15867cee.chunk.js.LICENSE.txt",
+    "static/js/2.77bdab84.chunk.js.LICENSE.txt": "/static/js/2.77bdab84.chunk.js.LICENSE.txt",
     "static/media/aro1.PNG": "/static/media/aro1.ec186f9d.PNG",
     "static/media/aro2.PNG": "/static/media/aro2.703ccb4a.PNG",
     "static/media/aro3.PNG": "/static/media/aro3.811c6d9b.PNG",
@@ -128,6 +128,7 @@
     "static/media/rangeCombat1.PNG": "/static/media/rangeCombat1.efeb8f7b.PNG",
     "static/media/rocket.png": "/static/media/rocket.d2f3bf41.png",
     "static/media/star.png": "/static/media/star.69c71386.png",
+    "static/media/unit-token.svg": "/static/media/unit-token.a2cf8aa5.svg",
     "static/media/yj-adil.svg": "/static/media/yj-adil.95a5945d.svg",
     "static/media/yj-chaiyi.svg": "/static/media/yj-chaiyi.aaa28f68.svg",
     "static/media/yj-daofei.svg": "/static/media/yj-daofei.c2e55228.svg",
@@ -155,7 +156,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.2e9f1821.js",
-    "static/js/2.15867cee.chunk.js",
-    "static/js/app.133706f2.chunk.js"
+    "static/js/2.77bdab84.chunk.js",
+    "static/js/app.d21bdf77.chunk.js"
   ]
 }
