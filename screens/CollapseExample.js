@@ -83,6 +83,12 @@ const removeUnitHandler = (key, unitItem) => {
   global.points = global.points - parseFloat(unitItem.points);
   global.unit = global.unit - parseInt(1);
 
+  
+  global.unitList_2 = global.unitList_2.filter(item => item.randomKey != key);
+  global.swc_2 = global.swc_2 - parseFloat(unitItem.swc);
+  global.points_2 = global.points_2 - parseFloat(unitItem.points);
+  global.unit_2 = global.unit - parseInt(1);
+
 };
 
 const importUnit = (unitText) => {
@@ -106,6 +112,11 @@ const addUnitSetProp = (unitSetId) => {
   global.swc = global.swc + parseFloat(unitItem.swc);
   global.points = global.points + parseFloat(unitItem.points);
   global.unit = global.unit + parseInt(1);
+
+  
+  global.swc_2 = global.swc_2 + parseFloat(unitItem.swc);
+  global.points_2 = global.points_2 + parseFloat(unitItem.points);
+  global.unit_2 = global.unit_2 + parseInt(1);
 };
 
 export default class CollapseExampleTestTemplate extends Component {
@@ -192,6 +203,7 @@ export default class CollapseExampleTestTemplate extends Component {
   };
 
   setToggleFalse = () => {
+    
     this.setState({ toggleFalse: !this.state.toggleFalse });
 
   };

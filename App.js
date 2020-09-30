@@ -19,6 +19,17 @@ global.unitList = [];
 global.swc = 0;
 global.points = 0;
 global.unit = 0;
+
+global.unitList_1 = [];
+global.swc_1 = 0;
+global.points_1 = 0;
+global.unit_1 = 0;
+
+global.unitList_2 = [];
+global.swc_2 = 0;
+global.points_2 = 0;
+global.unit_2 = 0;
+
 global.language = 'en';
 
 

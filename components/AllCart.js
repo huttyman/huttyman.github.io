@@ -153,6 +153,11 @@ const AllCart = props => {
             global.swc = global.swc + parseFloat(unitItem.swc);
             global.points = global.points + parseFloat(unitItem.points);
             global.unit = global.unit + parseInt(1);
+
+            global.unitList_1 = [...gUnitList, { randomKey: Math.random(), unitId: unitId, unitSetId: unitSetId }];
+            global.swc_1 = global.swc_1 + parseFloat(unitItem.swc);
+            global.points_1 = global.points_1 + parseFloat(unitItem.points);
+            global.unit_1 = global.unit_1 + parseInt(1);
             props.toggleFalse();
         };
 
